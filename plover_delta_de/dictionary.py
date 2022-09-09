@@ -56,12 +56,13 @@ class Stroke(BaseStroke):
             
             if char == "E":
                 first_e = True
-            
-            to_add = 1 << order[char]
-            if to_add & as_bin:
-                raise ValueError("Invalid stroke: Duplicate key")
 
-            as_bin += 1 << order[char]
+            if char != "-":
+                to_add = 1 << order[char]
+                if to_add & as_bin:
+                    raise ValueError("Invalid stroke: Duplicate key")
+
+                as_bin += to_add
         
         return Stroke(as_bin)
 
