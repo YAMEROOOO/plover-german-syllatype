@@ -2,13 +2,13 @@ from typing import Dict, Tuple, Union
 
 
 KEYS = tuple(
-    "# S- K- F- P- T- N- R- *- >- E- I- -A -U "
+    "# < ^ S- K- F- P- T- N- R- *- E- I- -A -U "
     "-+ -* -R -N -P -S -K -F -T -e".split()
 )
 
-IMPLICIT_HYPHEN_KEYS = tuple("E- I- -A -U".split())
+IMPLICIT_HYPHEN_KEYS = ("E-", "I-", "-A", "-U")
 
-SUFFIX_KEYS = tuple()
+SUFFIX_KEYS = ("-e", )
 
 NUMBER_KEY = None
 
@@ -45,44 +45,44 @@ def build_map(
 
 KEYMAP_LAYOUTS = {
     "Gemini PR": ((
-        "S1- T- P- H- *1    -F -P -L -T -D "
-        "S2- K- W- R- *2    -R -B -G -S -Z "
-                   "A- O-  -E -U"
+        "S1- T- P- H- *1  *3 -F -P -L -T -D "
+        "S2- K- W- R- *2  *4 -R -B -G -S -Z "
+                  "A- O-  -E -U"
     ), (
         "#1", "#2", "#3", "#4", "#5", "#6", "#7", 
         "#8", "#9", "#A", "#B", "#C"
     ), (
-        "Fn", "pwr", "res1", "res2", "*3", "*4"
+        "Fn", "pwr", "res1", "res2"
     ), None),
 
     "Keyboard": ((
-        "q  w  e  r  t      u  i  o  p  [ "
-        "a  s  d  f  g      j  k  l  ;  ' "
-                  "v  b    n  m"
+        "q  w  e  r  t   y  u  i  o  p  [ "
+        "a  s  d  f  g   h  j  k  l  ;  ' "
+                 "v  b   n  m"
     ), (
         "1", "2", "3", "4", "5", "6", "7", "8", 
         "9", "0", "-", "=", 
     ), (
-        ",", ".", "/", "]", "\\", "y", "h", "z", 
+        ",", ".", "/", "]", "\\", "z", 
         "x"
     ), "space"),
 
     "Treal": ((
-        "S1- T- P- H- *1    -F -P -L -T -D "
-        "S2- K- W- R- *2    -R -B -G -S -Z "
+        "X1- S1- T- P- H-  *1 -F -P -L -T -D "
+        "X2- S2- K- W- R-  *2 -R -B -G -S -Z "
                    "A- O-  -E -U"
     ), (
         "#1", "#2", "#3", "#4", "#5", "#6", "#7", 
         "#8", "#9", "#A", "#B"
     ), (
-        "X1-", "X2-", "X3"
+        "X3",
     ), None),
 }
 
 LAYOUT = (
-    "T- R- S- *- -+    -* -N -S -F -e "
-    "N- P- K- F- >-    -R -P -K -T -e "
-              "E- I-  -A -U"
+    "T- R- S- *- -+   < -* -N -S -F -e "
+    "N- P- K- F- ^    < -R -P -K -T -e "
+             "E- I-  -A -U"
 )
 
 KEYMAPS = {

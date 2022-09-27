@@ -115,6 +115,35 @@ class DeltaDictionary(StenoDictionary):
             )
 
             fp.write("\n")
+    
+    def __contains__(self, key: Tuple[str]) -> bool:
+        return False
+    
+    def get(self, key: Tuple[str], fallback=None) -> str:
+        if len(key) > self._longest_key:
+            return fallback
+        
+        if key in self._dict:
+            return self[key]
+
+        capitalized = "^" in key[0]
+        attach = "<" in key[0]
+        if not (capitalized or attach):
+            return fallback
+        
+        new_key = (
+            key[0].replace("^", "").replace("<", ""),
+            *key[1:]
+        )
+
+        if new_key not in self._dict:
+            return fallback
+        
+        return (
+            "{^}" * attach +
+            "{-|}" * capitalized +
+            self[new_key]
+        )
 
 
 def split_entry(line: str) -> Tuple[str, str]:
