@@ -2,11 +2,11 @@ from typing import Dict, Tuple, Union
 
 
 KEYS = tuple(
-    "# < ^ S- K- F- P- T- N- R- *- E- I- -A -U "
-    "-+ -* -R -N -P -S -K -F -T -e".split()
+    "# < ^ S- K- F- P- T- N- R- *- E- A- -I -U "
+    "-R -N -P -S -K -F -T -e -_ -*".split()
 )
 
-IMPLICIT_HYPHEN_KEYS = ("E-", "I-", "-A", "-U")
+IMPLICIT_HYPHEN_KEYS = ("E-", "A-", "-I", "-U")
 
 SUFFIX_KEYS = ("-e", )
 
@@ -80,9 +80,9 @@ KEYMAP_LAYOUTS = {
 }
 
 LAYOUT = (
-    "T- R- S- *- -+   < -* -N -S -F -e "
-    "N- P- K- F- ^    < -R -P -K -T -e "
-             "E- I-  -A -U"
+    "T- R- S- *- -_   ^ -* -N -S -F -e "
+    "N- P- K- F- <    ^ -R -P -K -T -e "
+             "E- A-  -I -U"
 )
 
 KEYMAPS = {
