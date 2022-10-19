@@ -5,9 +5,10 @@ This is the system plugin for Delta's German stenography system, designed by [de
 ## Contents:
 
 [Introduction](#introduction)
-[Hidden Letters](#hidden letters)
-[Other Combinations](#other combinations)
-[Dictionary Formats](#dictionary formats)
+[Rules](#rules)
+[Hidden Letters](#hidden-letters)
+[Other Combinations](#other-combinations)
+[Dictionary Formats](#dictionary-formats)
 [Disclaimer](#disclaimer)
 
 Layout: 
