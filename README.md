@@ -19,7 +19,7 @@ Steno order: `#<^SKFPTNR*AEIURNTPSKF*>`
 - [Other Combinations](#other-combinations)
 - [Dictionary Formats](#dictionary-formats)
 - [List of Conflicting Words](#list-of-conflicting-words)
-- [Disclaimer](#disclaimer)
+- [Addendum](#addendum)
 
 ## Introduction:
 
@@ -35,7 +35,7 @@ The steno order for my theory is the following:
 ## Rules:
 
 The system is orthographic, this means, that all words are written as one would spell them. Try for example writing the word "kauft". It will be written by pressing the `K-` key, the `A` and the `U` key, as well as the keys `-F` and `-T`. Other words like "reis", "stern" or "pfau" work in the same way. On the other hand, words like "clown" will need letters that are not present on the keyboard. Further explanation for this will follow in the next chapter. Right now though, this chapter will only talk about the basics of this plugin. Each word has to be written in syllables, and those syllables have to have vowels in the middle and optionally consonants on the sides. There can't be syllables such as "Safe" (which is an English word the Germans use respectively) because there are vowels in the middle AND at the end of the syllable (or to be more precise one stroke has three parts, an initial part with only consonants from the left bank, a middle part with only vowels from the middle bank, and a final part with only consonants from the right bank). So "Safe" would have to be split into 2 Syllables in order to be written. Pressing `SA` and the `FE` would be the way, though trying this out will output "sa fe" instead of "Safe". Here the `^` and `<` keys are needed, also called "capitalize-key" or "c-key" and "glue-(together)-key" or "g-key". These (as the name suggests) capitalize a syllable or "glue" one syllable to the previous one (that is the reason why the arrows point in these directions). To capitalize a syllable, one simply needs to press the c-key together with the other keys of the stroke. In the example of "Safe" one would press `^SA` to get "Sa". Now to glue the second syllable to the first one simply presses the g-key together with the syllable that needs to be attached to the previously written part. Doing this together will output "Safe" (by inputting `^SA/<FE`).
-The reason this is so different from most other stenography systems (that usually operate on words rather than syllables that need to be "glued" together manually) is due to the nature of the German language. In German one can combine a lot of words (especially nouns) and get a perfectly fine German word. Like "Müll" ("trash") and "Eimer" ("bucket") gives "Mülleimer" ("trashcan"). So far so good, but in German this keeps on going further: "Plastikmülleimerdeckel" ("plastic trashcan lid") is one German word and there are a lot of those really long ones. Furthermore ...
+The reason this is so different from most other stenography systems (that usually operate on words rather than syllables that need to be "glued" together manually) is due to the nature of the German language. In German one can combine a lot of words (especially nouns) and get a perfectly fine German word. Like "Müll" ("trash") and "Eimer" ("bucket") gives "Mülleimer" ("trashcan"). So far so good, but in German this keeps on going further: "Plastikmülleimerdeckel" ("plastic trashcan lid") is one German word and there are a lot of those really long ones.
 
 ## Hidden letters:
 
@@ -73,10 +73,8 @@ But there are still letters missing like c, j, l, o, q, v, w, x, y and ß as wel
 | ä | AEI | To differetiate "ae" and "ä" an `I` was added (because German has no "Ï") |
 | ö | AIU | Since "o" is `IU` just doing `EIU` would be the same as "ü" so it had to be another combination with `IU` (the only one being left was `AIU`) |
 | ü | EIU | Same as "ä" (and also the reason why "y" can’t be `EIU`) |
-| ß | 	
- 
+| ß |
 (Here the letter "l" has two input methods, depending on the side the l is needed)
-(((This sums up this chapter on all the letters, and in the next chapter we will be talking about some other combinations.)))
 
 ## Other combinations:
 
@@ -164,6 +162,6 @@ The conflicting words are listed here (in .dwd):
 
 If more disambiguations are found, they will be added here.
 
-## Disclaimer
+## Addendum
 
-This theory Of course you can ask me why i did things the way i did them, just dont expect me to change things (i thought about them a lot and there are (((as far as i know))) no other possibilities to do it better).
+First and foremost i would like to thank [Kathy](https://github.com/Kaoffie) for creating this Plugin for me. Without her constant help and quick implementation of changes to the plugin i was able to create this theory in the first place. Furthermore i want to thank the people on the plover discord that helped me out a lot and weren't annoyed of my constant questionings regarding steno topics. Also i want to say something regarding this theory and myself. All of this has been a passion project of mine since 2021 and was (except for the plugin) all done by me. I changed the theory multiple times as well as the dictionary and ended up translating all of the (currently around 5500) syllables by myself so if there are any mistakes in there i'm sorry. The best place to reach out to me would be my discord (YAMERO#3100) handmade the whole dictionary  his theory Of course you can ask me why i did things the way i did them, just dont expect me to change things (i thought about them a lot and there are (((as far as i know))) no other possibilities to do it better).
