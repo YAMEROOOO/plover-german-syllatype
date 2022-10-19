@@ -157,12 +157,12 @@ Note: This Option requires memorization of these disambiguations.
 
 The coflicting words are listed here (in .dwd):
 
--- samt, `SAN*T.*N` | sand, `SANT*.*T`
 
--- brems, `PR*E*NS.*N` | brenz, `PR*E*NS.*S`
--- psi, `SPI*` | spi, `SPI`
-
-hemd, `F*E_*NT.*T` | hemmt, `F*E_*NT.*NT`
+| :---: | :---: |
+| samt, `SAN*T.*N` | sand, `SANT*.*T` |
+| brems, `PR*E*NS.*N` | brenz, `PR*E*NS.*S` |
+| psi, `SPI*` | spi, `SPI` |
+| hemd, `F*E_*NT.*T` | hemmt, `F*E_*NT.*NT` |
 
 If more disambiguations are found they will be added here.
 
