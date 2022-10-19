@@ -4,9 +4,9 @@ This is the system plugin for Delta's German stenography system, designed by [de
 
 Layout: 
 ```
-F- P- N- *- ^        < -* -N -P -F ->
-K- S- T- R- ^        < -R -T -S -K ->
-            A- E-   -I -U
+F- P- N- *- ^     < -* -N -P -F ->
+K- S- T- R- ^     < -R -T -S -K ->
+         A- E-   -I -U
 ```
 
 Steno order: `#<^SKFPTNR*AEIURNTPSKF*>`
@@ -166,4 +166,4 @@ If more disambiguations are found they will be added here.
 
 ## Disclaimer
 
-Of course you can ask me why i did things the way i did them, just dont expect me to change things (i thought about them a lot and there are (((as far as i know))) no other possibilities to do it better).
+This theory Of course you can ask me why i did things the way i did them, just dont expect me to change things (i thought about them a lot and there are (((as far as i know))) no other possibilities to do it better).
