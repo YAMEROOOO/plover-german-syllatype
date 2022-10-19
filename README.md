@@ -157,7 +157,7 @@ Note: This Option requires memorization of these disambiguations.
 
 The coflicting words are listed here (in .dwd):
 
-| Option | Conflicts |
+| Option | Conflicts | |
 | :---: | :---: | :---: |
 | 2 | samt, `SAN*T.*N` | sand, `SANT*.*T` |
 | 2 | brems, `PR*E*NS.*N` | brenz, `PR*E*NS.*S` |
