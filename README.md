@@ -96,25 +96,28 @@ But there are still letters missing like c, j, l, o, q, v, w, x, y and ß as wel
 There are some other issues one can run into while trying to write certain words like "bann", "zahm" or "siel". These require other combinations as well as the `>` key (which acts as another extra key similar to the `*` and is not to be confused with the g-key). Usually the `>` key is used to double a letter like the "n" in bann. To write bann one simply strokes `P*AN>`. The same works with most of the other letters except for "r" and "l" which, due to "l" being `-R>` on the right side, have other combinations which will be listed below. Also if a vowel needs to be doubled like in "see" or "tee" one simply types the vowel along with the `>` and the right `*` (so "see" would be `SE*>` and "tee" would be `TE*>`). The `>` key can also be used if the `*` needs to be doubled like in the word "zahm" which would be `S*ANF**` (rearranged from `S*AF*N*`) but needs to be stroked as `S*ANF*>`. As seen in the above chapter the `>` key is also used to write the letter "l" on the right side. Furthermore the `>` key can be used to distinguish "chs" from "sch" as in "Lachs" (`^TNASKF>`) and "lasch" (`TNASKF`). As seen there, the combination for writing an "sch" is `SKF` (which makes sense due to `K` being similar to "c" and "h" being the counterpart to `F`). Therefore the "ch" alone with no "s" in the same part of the stroke is `KF`. The only time where a `S` is pressed together with a `KF` in the same bank but does not form an "sch" or "chs" is when this `S` is used to stroke a "z" as in "schluchtz" (`SKFTNUTSKF*`). This is really important due to words like "nachts" and "nascht" being stroked the same way. For the "ck" another combination of letters is needed which can also be seen below.
 Another problem occurs with the word "siel" which requires the same inputs as "seil" (`SEIR>`). Thus every "ie" needs to be stroked as `AE` instead of `EI` (a pony for this are english words like "beamer", where the "ea" sounds like a german "ie" as in "biegen").
 Here are all of the combinations from this chapter:
- 
-ff	-F>
-pp	-P>
-bb	-P*>
-nn	-N>
-mm	-N*>
-gg	-K*>
-ss	-S>
-zz	-S*>
-tt	-T*>
-rr	-RNP
-ll	-RNP>
-aa	A*>
-ee	E*>
-oo	IU*>
-sch	-SKF
-chs	-SKF>
-ch	-KF
-ck	-RPK
-ie	AE
+
+
+| output | input |
+| :---: | :---: |
+| ff | -F> |
+| pp | -P> |
+| bb | -P*> |
+| nn | -N> |
+| mm | -N*> |
+| gg | -K*> |
+| ss | -S> |
+| zz | -S*> |
+| tt | -T*> |
+| rr | -RNP |
+| ll | -RNP> |
+| aa | A*> |
+| ee | E*> |
+| oo | IU*> |
+| sch | -SKF |
+| chs | -SKF> |
+| ch | -KF |
+| ck | -RPK |
+| ie | AE |
 
 of course you can ask me why i did things the way i did them, just dont expect me to change things (i thought about them a lot and there are (((as far as i know))) no other possibilities to do it better).
