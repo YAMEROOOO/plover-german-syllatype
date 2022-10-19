@@ -72,21 +72,22 @@ As one can see, the counterparts are usually the "softer" versions of the letter
 But there are still letters missing like c, j, l, o, q, v, w, x, y and ß as well as the so called "umlaute" ä, ö and ü. Due to most of these being sparely used in the german language they are hidden behind combinations of letters. Some of them are intuitive whilst others aren’t. This theory is build to be as intuitive as possible but especially here the randomness starts to take place. There is no need worry if this gets a little confusing at first, it is just a matter of memorization and practice. The missing letters are in the following table:
 
 
-
-c	-PK	This combination is purely random 
-j	*I	I looks kind of like J so J is the counterpart of I
-l	TN-	This combination is random
-l	-R>	This is random aswell and will be explained in the next chapter
-o	IU	One vowel hat to go and O was the least common, also O usually never appears together with either I or U
-q	-NPK	Words that start with Q ususally sound like KW (which is KNP)
-v	-NPF	Similar to the Q but here it is just because the V looks like a W (or at least half a W) and is used similar to F
-w	-NP	This combination is purely random
-x	-RPSK	The X in a word usually sounds like a KS (though R and P are random)
-y	EU*	Y in the middle of a word sounds like Ü (which also can be written as UE). The * is there to clarify the difference between Y and UE.
-ä	AEI	To differeciate AE and Ä an I was added (because german has no Ï)
-ö	AIU	Since O is IU just doing EIU would be the same as Ü so it had to be another combination with IU (the only one being left was AIU)
-ü	EIU	Same as Ä (and also the reason why Y can’t be EIU)
-ß		
+| output | input | explanation |
+| :---: | :---: | :---: |
+| c | -PK |This combination is purely random |
+| j | *I | I looks kind of like J so J is the counterpart of I |
+| l | TN- | This combination is random |
+| l | -R> | This is random aswell and will be explained in the next chapter |
+| o | IU | One vowel hat to go and O was the least common, also O usually never appears together with either I or U |
+| q | -NPK | Words that start with Q ususally sound like KW (which is KNP) |
+| v | -NPF | Similar to the Q but here it is just because the V looks like a W (or at least half a W) and is used similar to F |
+| w | -NP | This combination is purely random |
+| x | -RPSK | The X in a word usually sounds like a KS (though R and P are random) |
+| y | EU* | Y in the middle of a word sounds like Ü (which also can be written as UE). The * is there to clarify the difference between Y and UE. |
+| ä | AEI | To differeciate AE and Ä an I was added (because german has no Ï) |
+| ö | AIU | Since O is IU just doing EIU would be the same as Ü so it had to be another combination with IU (the only one being left was AIU) |
+| ü | EIU | Same as Ä (and also the reason why Y can’t be EIU) |
+| ß | 	
  
 (Here the letter "l" has two input methods, depending on the side the l is needed)
 (((This sums up this chapter on all the letters and in the next chapter we will be talking about some other combinations.)))
