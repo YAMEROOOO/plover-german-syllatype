@@ -9,7 +9,7 @@ This is the system plugin for Delta's German stenography system, designed by [de
 - [Hidden Letters](#hidden-letters)
 - [Other Combinations](#other-combinations)
 - [Dictionary Formats](#dictionary-formats)
-- [List of Disambiguations](#list-of-conflicting-words)
+- [List of Conflicting Words](#list-of-conflicting-words)
 - [Disclaimer](#disclaimer)
 
 Layout: 
