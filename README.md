@@ -139,15 +139,15 @@ stenographie, STE.NUI.K*RA.PF*EA
 
 Some words will still create issues because they have the same stroke as some other word. To differentiate the first working option in the following list should be used:
 
-####Option 1:
+#### Option 1:
 **Example:** hemd=F*ENT*>=hemmt ; **Solution:** hem?=F*ENT*> ; hemd=F*E_*NT.*T ; hemmt=F*E_*NT.*NT
 Replace the part of the translation where the disambiguation happened with a "?" to indicate the user that further input is required. Then in the second stroke the user can input the missing letters that got replaced by the "?" (without the need to add the g-key).
 
-####Option 2:
+#### Option 2:
 **Example:** samt=`SANT*`=sand ; **Solution:** sant?=`SANT*` ; samt=`SAN*T.*N` ; sand=`SANT*.*T`
 Replace the part of the translation where the disambiguation occurs with the unchanged form of the characters (in this case the counterpart "m" will change back to "n" or the counterpart "d" will change back to "t") and add a "?" at the end of the translation to indicate the user that further input is required. Then in the second stroke the user can input the counterpart of the letter which needs to be changed (without the need to add the g-key).
 
-####Option 3:
+#### Option 3:
 **Example:** psi=`SPI`=spi ; **Solution:** psi=`SPI*` ; spi=`SPI`
 Add a `-*` (or a `->` if `-*` is already used) in the raw steno of the syllable that is not in steno order (or is the one which uses hidden letters). If this will create an issue with another entry add the `*-` (or a `->` if `*-` is already used) in the raw steno of the syllable that is not in steno order (or is the one which uses hidden letters).
 Note: This Option requires memorization of these disambiguations.
