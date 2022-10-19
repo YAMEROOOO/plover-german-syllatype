@@ -4,12 +4,12 @@ This is the system plugin for Delta's German stenography system, designed by [de
 
 Layout: 
 ```
-T- R- S- *- -_   ^ -* -N -S -F -e
-N- P- K- F- <    ^ -R -P -K -T -e
-         E- I-  -A -U"
+F- P- N- *- ^        < -* -N -P -F ->
+K- S- T- R- ^        < -R -T -S -K ->
+            A- E-   -I -U
 ```
 
-Steno order: `#<^SKFPTNR*EAIURNPSKFTe_*`
+Steno order: `#<^SKFPTNR*AEIURNTPSKF*>`
 
 ## Dictionary Formats
 
@@ -37,7 +37,7 @@ stenographie, STE.NUI.K*RA.PF*EA
 ```
 
 ## Introduction:
-In this part i explain basic terms like stroke, .... and the basics of plovers raw steno. If you know about all of this just skip to the next part. The basic theory of stenography is to write words faster than typing the letters one by one. This is accomplished by pressing multiple keys on a keyboard (which is usually a special machine but can also be a normal NKRO-keyboard). Pressing multiple buttons at once is called a stroke and the programm „Plover“ translates these strokes via a dictionary in regular words. Plover is just the basic construct and what pressing each key will output will be decided by the theory you are using. Theories are the plugins one can install as well as their corresponding dictionaries which need to be implemented in order for the plugin to work. For a more indepth (and probably way better) explanation check out the YouTube playlist „Plover And Stenography“ by Aerick which mainly focusses on the bacis english theory but is generally helpful for understanding how plover works: https://www.youtube.com/playlist?list=PLatiIGGUmVcvXHf-uiScllH33-mY_Lc1_
+This chapter will explain basic terms like stroke, steno order and the basics of plovers raw steno. More information can be found at: https://github.com/openstenoproject/plover/wiki/Glossary If you know about all of this just skip to the next part. The basic theory of stenography is to write words faster than typing the letters one by one. This is accomplished by pressing multiple keys on a keyboard (which is usually a special machine but can also be a normal NKRO-keyboard). Pressing multiple buttons at once is called a stroke and the programm „Plover“ translates these strokes via a dictionary in regular words. Plover is just the basic construct and what pressing each key will output will be decided by the theory you are using. Theories are the plugins one can install as well as their corresponding dictionaries which need to be implemented in order for the plugin to work. For a more indepth (and probably way better) explanation check out the YouTube playlist „Plover And Stenography“ by Aerick which mainly focusses on the bacis english theory but is generally helpful for understanding how plover works: https://www.youtube.com/playlist?list=PLatiIGGUmVcvXHf-uiScllH33-mY_Lc1_
 Some other things to note is Steno order. The keys on a steno Keyboard follow an order that usually goes from left to write (as one would write and read) and there is usually a block of consonants on the left, a block of vowels at the botton and a block of consonants on the right. Some keys can be on both the left and the right side and differeciated by using a „-„ either at the beginning or at the end of the letter (or of the letters if they are both on one side). A „T“ on the left side would look like this: T- while a T on the right side would look like this: -T. Similarly pressing S and T on the right side would be ST- and pressing both on the right side would be -ST. If a – is needed and the order of multiple letters depends on the theory used. This Theory for example has the Keys S and T on either side, but if some other theory would not have the S only on the right side and not on the left there is no need for the „-„ before the S because there is noting like an „S-„. Also if there are vowel keys pressed (like trying to write SOS) there is no need to differenciate aswell so it would look like SOS (and not S-O-S). If more than one key is pressed in either area, the order of these Keys is determined my the steno order of the corresponding theory, so if the Order is STAOEUTS (with blocks [ST][AOEU][TS], where „ST“ are the keys on the left side, „AOEU“ are the keys in the lower middle and „TS“ are the keys on the right side) then stost would get the output STOTS instead of STOST. It is not important to understand all of this fully but it it important to not that letters with a „-„ afterwards correspond to keys on the left and letters with a „-„ in front correspond to keys on the right. Also these Previously mentioned Strokes are a set of these uppercase letters which will always follow the steno order of the theory used. Two strokes are seperated by a „/“ and it is not possible for a letter to appear two times in either block of the Stroke (because all the keys in a stroke are pressed simultaneously and thus one can not click a key two times) so something like SSOTT is not a possible stroke.
 An example with my theory would be this:
 (Reminder: These instructions are for this german theory and thus my further examples will revolve around this theory.)
