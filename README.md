@@ -36,9 +36,7 @@ stenograf, STE.NUI.K*RAF
 stenographie, STE.NUI.K*RA.PF*EA
 ```
 
-| Attempt | #1    | #2    |
-| :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
+
 
 ## Introduction:
 This chapter will explain basic terms like stroke, steno order and the basics of plovers raw steno. More information can be found at the [Steno Glossary](https://github.com/openstenoproject/plover/wiki/Glossary). The basic idea of stenography is to write words faster than typing the letters one by one. This is accomplished by pressing multiple keys on a keyboard (which is usually a special machine but can also be a normal NKRO-keyboard). Pressing multiple buttons at once is called a stroke and the programm "Plover" translates these strokes via a dictionary into regular words. Plover is just the basic construct and what pressing each key will output will be decided by the theory which is being used. Theories are the plugins one can install as well as their corresponding dictionaries which need to be added in order for the plugin to work. For a more indepth (and probably way better) explanation check out the YouTube playlist "[Plover And Stenography](https://www.youtube.com/playlist?list=PLatiIGGUmVcvXHf-uiScllH33-mY_Lc1_)" by [Aerick](https://github.com/aerickt) which mainly focusses on the bacis english theory but is generally helpful for understanding how plover works: 
@@ -57,12 +55,13 @@ The reason this is so different from most other stenography systems (that usuall
 ## Hidden letters:
 Some letters like "d" and "m" can not be found on the keys. To access these a special key labled `*` is needed. Pressing `*` and `T` on one side (either right or left) will output a "d". This works for most letters and the "counterparts" to each letter are in the following table:
 
-h	-F*
-g	-K*
-b	-P*
-z	-S*
-m	-N*
-d	-T*
+| h | -F* |
+| g | -K* |
+| b | -P* |
+| z | -S* |
+| m | -N* |
+| d | -T* |
+
 
 (These can of course be written on both sides, for simplicity sake this will only cover the left side if it is different from the right side)
 
