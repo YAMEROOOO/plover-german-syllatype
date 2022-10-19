@@ -56,10 +56,15 @@ The reason this is so different from most other stenography systems (that usuall
 Some letters like "d" and "m" can not be found on the keys. To access these a special key labled `*` is needed. Pressing `*` and `T` on one side (either right or left) will output a "d". This works for most letters and the "counterparts" to each letter are in the following table:
 
 | h | -F* |
+| :---: | :---: |
 | g | -K* |
+| :---: | :---: |
 | b | -P* |
+| :---: | :---: |
 | z | -S* |
+| :---: | :---: |
 | m | -N* |
+| :---: | :---: |
 | d | -T* |
 
 
