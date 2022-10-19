@@ -2,16 +2,6 @@
 
 This is the system plugin for Delta's German stenography system, designed by [delta](https://github.com/YAMEROOOO) and implemented by Kaoffie.
 
-## Contents:
-
-- [Introduction](#introduction)
-- [Rules](#rules)
-- [Hidden Letters](#hidden-letters)
-- [Other Combinations](#other-combinations)
-- [Dictionary Formats](#dictionary-formats)
-- [List of Conflicting Words](#list-of-conflicting-words)
-- [Disclaimer](#disclaimer)
-
 Layout: 
 ```
 F- P- N- *- ^        < -* -N -P -F ->
@@ -21,7 +11,15 @@ K- S- T- R- ^        < -R -T -S -K ->
 
 Steno order: `#<^SKFPTNR*AEIURNTPSKF*>`
 
+## Contents:
 
+- [Introduction](#introduction)
+- [Rules](#rules)
+- [Hidden Letters](#hidden-letters)
+- [Other Combinations](#other-combinations)
+- [Dictionary Formats](#dictionary-formats)
+- [List of Conflicting Words](#list-of-conflicting-words)
+- [Disclaimer](#disclaimer)
 
 ## Introduction:
 
