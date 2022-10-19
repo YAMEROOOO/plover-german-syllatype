@@ -155,13 +155,12 @@ Replace the part of the translation where the disambiguation occurs with the unc
 Add a `-*` (or a `->` if `-*` is already used) in the raw steno of the syllable that is not in steno order (or is the one which uses hidden letters). If this will create an issue with another entry add the `*-` (or a `->` if `*-` is already used) in the raw steno of the syllable that is not in steno order (or is the one which uses hidden letters).
 Note: This Option requires memorization of these disambiguations.
 
-hese are listed here (in .dwd):
+The coflicting words are listed here (in .dwd):
 
-samt, `SAN*T.*N` | sand, `SANT*.*T`
+-- samt, `SAN*T.*N` | sand, `SANT*.*T`
 
-brems, `PR*E*NS.*N` | brenz, `PR*E*NS.*S`
-
-psi, `SPI*` | spi, `SPI`
+-- brems, `PR*E*NS.*N` | brenz, `PR*E*NS.*S`
+-- psi, `SPI*` | spi, `SPI`
 
 hemd, `F*E_*NT.*T` | hemmt, `F*E_*NT.*NT`
 
