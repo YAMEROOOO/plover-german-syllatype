@@ -11,6 +11,7 @@ This is the system plugin for Delta's German stenography system, designed by [de
 - [Dictionary Formats](#dictionary-formats)
 - [List of Conflicting Words](#list-of-conflicting-words)
 - [Addendum](#addendum)
+- [TLDR](#TLDR)
 
 ## Introduction:
 
@@ -171,3 +172,69 @@ If more disambiguations are found, they will be added here.
 First and foremost, I would like to thank [Kathy](https://github.com/Kaoffie) for creating this plugin for me. Without her constant help and quick implementation of changes to the plugin, I wouldn't have been able to create this theory in the first place. Furthermore, I want to thank the people on the plover discord that helped me out weren't annoyed of my constant questionings regarding steno topics. Also, I want to say something regarding this theory and myself. This has been a passion project of mine since 2021 and was (except for the plugin) all done by me. I changed the theory multiple times as well as the dictionary and ended up translating all the (at the time of writing this around 5500) syllables by myself, so if there are any mistakes in there I'm sorry. That said, the best place to reach out to me would be my discord (YAMERO#3100) or via the [plover discord server](https://discord.gg/f47aYcst9B) where I will be talking about new improvements and updates from now on. I appreciate everyone who is willing to help me out on this project, even if it's just finding some mistakes or missing syllables and sending them to me. Be aware though that I worked on this theory a long time now, and thought about the layout and other improvement ideas dozens of times and most of them will have some issues that will create more problems than before, so I can confidently say that this is the best theory I can craft and there won't be any major changes to it, so please respect that.
 
 **Last but not least, have fun writing!**
+
+## TLDR
+
+If you know a lot about stenography already this is the section for you. 
+
+Here is the steno order and layout again:
+
+Layout:
+```
+F- P- N- *- ^     < -* -N -P -F ->
+K- S- T- R- ^     < -R -T -S -K ->
+         A  E     I  U
+```
+
+Steno order:
+`SKFPTNR*AEIURNTPSKF*>`
+
+The theory is orthografic and revolves around typing each syllable instead of each word so the syllable has to be attached the prevoius one if needed. To do that the `<` (also called the g(lue)-key) is used together with the second syllable. Syllables that can't be written in one stroke are treated as separate syllables (so "safe" is `SA/<FE`).
+Capitalization is achieved by pressing `^` (also called the c(apitalize)-key) together with to syllable that needs to be capitalized.
+The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side or differentiating "sch" from "chs". (chtz)
+Missing Letters and other combinations can be accessed by these key combinations:
+
+| output | input |
+| :---: | :---: |
+| h | -F* |
+| g | -K* |
+| b | -P* |
+| z | -S* |
+| m | -N* |
+| d | -T* |
+| c | -PK |
+| j | *I |
+| l | TN- |
+| l | -R> |
+| o | IU |
+| q | -NPK |
+| v | -NPF |
+| w | -NP |
+| x | -RPSK |
+| y | EU* |
+| ä | AEI |
+| ö | AIU |
+| ü | EIU |
+| ß |
+| ff | -F> |
+| pp | -P> |
+| bb | -P*> |
+| nn | -N> |
+| mm | -N*> |
+| gg | -K*> |
+| ss | -S> |
+| zz | -S*> |
+| tt | -T*> |
+| rr | -RNP |
+| ll | -RNP> |
+| aa | A*> |
+| ee | E*> |
+| oo | IU*> |
+| sch | -SKF |
+| chs | -SKF> |
+| ch | -KF |
+| ck | -RPK |
+| ck | KPR- |
+| ie | AE |
+
+(Keep in mind that all combinations work for the left side aswell, except for the ones where the left side has a different input)
