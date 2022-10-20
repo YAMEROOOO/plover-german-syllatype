@@ -194,7 +194,7 @@ Capitalization is achieved by pressing `^` (also called the c(apitalize)-key) to
 The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side or differentiating "sch" from "chs". (chtz)
 Missing Letters and other combinations can be accessed by these key combinations:
 
-| output | input |
+| output | input | | output | input | | output | input |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | h | -F* | | g | -K* | | b | -P* |
 | z | -S* |
