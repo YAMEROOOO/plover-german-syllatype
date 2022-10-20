@@ -27,7 +27,7 @@ Layout:
 ```
 F- P- N- *- ^     < -* -N -P -F ->
 K- S- T- R- ^     < -R -T -S -K ->
-         A- E-   -I -U
+         A  E     I  U
 ```
 
 Steno order:
