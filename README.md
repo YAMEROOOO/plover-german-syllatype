@@ -195,7 +195,7 @@ The `>` key is used to double letters (as well as the `*` if needed) or to creat
 Missing Letters and other combinations can be accessed by these key combinations:
 
 | output | input | | output | input | | output | input | | output | input |
-| :---: | :---: | | :---: | :---: | | :---: | :---: | | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | h | -F* | | g | -K* | | b | -P* | | z | -S* |
 | m | -N* | | d | -T* | | c | -PK | | j | *I |
 | l | TN- | | l | -R> | | o | IU | | q | -NPK |
