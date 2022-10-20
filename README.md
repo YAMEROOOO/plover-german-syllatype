@@ -28,8 +28,19 @@ Another basic concept is steno order. The keys on a steno keyboard follow an ord
 An example with this theory would be this:
 (Reminder: These instructions are for this German theory and thus my further examples will revolve around this theory.)
 `^F*AR>/<TNIU/^PNERT>` which would translate to "Hallo Welt" (Hello World).
-The steno order for my theory is the following:
-`SKFPTNR*AEIURNTPSKF*>` and can also be seen in the image below:
+The steno layout and order for my theory are the following and can also be seen in the image below:
+![keys](https://user-images.githubusercontent.com/71076286/196929655-74b2221c-be4d-4d86-bf3f-631639927a7b.png)
+
+Layout:
+```
+F- P- N- *- ^     < -* -N -P -F ->
+K- S- T- R- ^     < -R -T -S -K ->
+         A- E-   -I -U
+```
+
+Steno order:
+`SKFPTNR*AEIURNTPSKF*>`
+
 
 
 ## Rules:
