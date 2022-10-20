@@ -186,7 +186,7 @@ Replace the part of the translation where the disambiguation happened with a "?"
 #### Option 2:
 **Example:** samt=`SANT*`=sand ; **Solution:** sant?=`SANT*` ; samt=`SAN*T.*N` ; sand=`SANT*.*T`
 
-Replace the part of the translation where the disambiguation occurs with the unchanged form of the characters (in this case the counterpart "m" will change back to "n" or the counterpart "d" will change back to "t") and add a "?" at the end of the translation to indicate the user that further input is required. Then in the second stroke, the user can input the counterpart of the letter which needs to be changed (without the need to add the g-key).
+Replace the part of the translation where the disambiguation occurs with the unchanged form of the characters (in this case the counterpart "m" will change back to "n" or the counterpart "d" will change back to "t") and add a "?" at the part where the disambiguation happened to indicate to the user that further input is required. Then in the second stroke, the user can input the counterpart of the letter which needs to be changed (without the need to add the g-key).
 
 #### Option 3:
 **Example:** psi=`SPI`=spi ; **Solution:** psi=`SPI*` ; spi=`SPI`
