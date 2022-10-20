@@ -9,9 +9,10 @@ This is the system plugin for Delta's German stenography system, designed by [de
 - [Hidden Letters](#hidden-letters)
 - [Other Combinations](#other-combinations)
 - [Dictionary Formats](#dictionary-formats)
+- [TLDR](#TLDR)
 - [List of Conflicting Words](#list-of-conflicting-words)
 - [Addendum](#addendum)
-- [TLDR](#TLDR)
+
 
 ## Introduction:
 
@@ -108,6 +109,7 @@ Here are all the combinations from this chapter:
 | chs | -SKF> |
 | ch | -KF |
 | ck | -RPK |
+| ck | KPR- |
 | ie | AE |
 
 
@@ -135,6 +137,42 @@ steno, STE.NUI
 stenograf, STE.NUI.K*RAF
 stenographie, STE.NUI.K*RA.PF*EA
 ```
+
+## TLDR
+
+If you know a lot about stenography already, this is the section for you. 
+
+Here is the steno order and layout again:
+
+Layout:
+```
+F- P- N- *- ^     < -* -N -P -F ->
+K- S- T- R- ^     < -R -T -S -K ->
+         A  E     I  U
+```
+
+Steno order:
+`SKFPTNR*AEIURNTPSKF*>`
+
+The theory is orthographic and revolves around typing each syllable instead of each word, so the syllable has to be attached zo the previous one if needed. To do that, the `<` (also called the g(lue)-key) is used together with the second syllable. Syllables that can't be written in one stroke are treated as separate syllables (so "safe" is `SA/<FE`).
+Capitalization is achieved by pressing `^` (also called the c(apitalize)-key) together with the syllable that needs to be capitalized.
+The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side or differentiating "sch" from "chs" (though combinations of "ch" and "z" do NOT require the addition of the `>` key as in "schluchtz" (`SKFTNUTSKF*`) for example).
+Missing Letters and other combinations can be accessed by these key combinations:
+
+| output | input | | output | input | | output | input | | output | input |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| h | -F* | | g | -K* | | b | -P* | | z | -S* |
+| m | -N* | | d | -T* | | c | -PK | | j | *I |
+| l | TN- | | l | -R> | | o | IU | | q | -NPK |
+| v | -NPF | | w | -NP | | x | -RPSK | | y | EU* |
+| ä | AEI | | ö | AIU | | ü | EIU | | ß |
+| ff | -F> | | pp | -P> | | bb | -P*> | | nn | -N> |
+| mm | -N*> | | gg | -K*> | | ss | -S> | | zz | -S*> |
+| tt | -T*> | | rr | -RNP | | ll | -RNP> | | aa | A*> |
+| ee | E*> | | oo | IU*> | | sch | -SKF | | chs | -SKF> |
+| ch | -KF | | ck | -RPK | | ck | KPR- | | ie | AE |
+
+(Keep in mind that all combinations work for the left side as well, except for the ones where the left side has a different input)
 
 ## List of Conflicting Words
 
@@ -173,38 +211,3 @@ First and foremost, I would like to thank [Kathy](https://github.com/Kaoffie) fo
 
 **Last but not least, have fun writing!**
 
-## TLDR
-
-If you know a lot about stenography already this is the section for you. 
-
-Here is the steno order and layout again:
-
-Layout:
-```
-F- P- N- *- ^     < -* -N -P -F ->
-K- S- T- R- ^     < -R -T -S -K ->
-         A  E     I  U
-```
-
-Steno order:
-`SKFPTNR*AEIURNTPSKF*>`
-
-The theory is orthografic and revolves around typing each syllable instead of each word so the syllable has to be attached the prevoius one if needed. To do that the `<` (also called the g(lue)-key) is used together with the second syllable. Syllables that can't be written in one stroke are treated as separate syllables (so "safe" is `SA/<FE`).
-Capitalization is achieved by pressing `^` (also called the c(apitalize)-key) together with to syllable that needs to be capitalized.
-The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side or differentiating "sch" from "chs". (chtz)
-Missing Letters and other combinations can be accessed by these key combinations:
-
-| output | input | | output | input | | output | input | | output | input |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| h | -F* | | g | -K* | | b | -P* | | z | -S* |
-| m | -N* | | d | -T* | | c | -PK | | j | *I |
-| l | TN- | | l | -R> | | o | IU | | q | -NPK |
-| v | -NPF | | w | -NP | | x | -RPSK | | y | EU* |
-| ä | AEI | | ö | AIU | | ü | EIU | | ß |
-| ff | -F> | | pp | -P> | | bb | -P*> | | nn | -N> |
-| mm | -N*> | | gg | -K*> | | ss | -S> | | zz | -S*> |
-| tt | -T*> | | rr | -RNP | | ll | -RNP> | | aa | A*> |
-| ee | E*> | | oo | IU*> | | sch | -SKF | | chs | -SKF> |
-| ch | -KF | | ck | -RPK | | ck | KPR- | | ie | AE |
-
-(Keep in mind that all combinations work for the left side aswell, except for the ones where the left side has a different input)
