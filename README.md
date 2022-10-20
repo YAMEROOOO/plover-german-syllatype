@@ -201,25 +201,10 @@ Missing Letters and other combinations can be accessed by these key combinations
 | l | TN- | | l | -R> | | o | IU | | q | -NPK |
 | v | -NPF | | w | -NP | | x | -RPSK | | y | EU* |
 | ä | AEI | | ö | AIU | | ü | EIU | | ß |
-| ff | -F> |
-| pp | -P> |
-| bb | -P*> |
-| nn | -N> |
-| mm | -N*> |
-| gg | -K*> |
-| ss | -S> |
-| zz | -S*> |
-| tt | -T*> |
-| rr | -RNP |
-| ll | -RNP> |
-| aa | A*> |
-| ee | E*> |
-| oo | IU*> |
-| sch | -SKF |
-| chs | -SKF> |
-| ch | -KF |
-| ck | -RPK |
-| ck | KPR- |
-| ie | AE |
+| ff | -F> | | pp | -P> | | bb | -P*> | | nn | -N> |
+| mm | -N*> | | gg | -K*> | | ss | -S> | | zz | -S*> |
+| tt | -T*> | | rr | -RNP | | ll | -RNP> | | aa | A*> |
+| ee | E*> | | oo | IU*> | | sch | -SKF | | chs | -SKF> |
+| ch | -KF | | ck | -RPK | | ck | KPR- | | ie | AE |
 
 (Keep in mind that all combinations work for the left side aswell, except for the ones where the left side has a different input)
