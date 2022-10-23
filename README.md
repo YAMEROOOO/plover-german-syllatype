@@ -70,7 +70,7 @@ But there are still letters missing like c, j, l, o, q, v, w, x, y and ß as wel
 | j | *I | "i" looks kind of like "j" so "j" is the counterpart of `I` |
 | l | TN- | This combination is random |
 | l | -R> | This is random aswell and will be explained in the next chapter |
-| o | IU | One vowel hat to go and "o" was the least common, also "o" usually never appears together with either "i" or "u" |
+| o | IU | One vowel had to go and "o" was the least common, also "o" usually never appears together with either "i" or "u" |
 | q | -NPK | Words that start with "q" usually sound like "kw" (which is `KNP`) |
 | v | -NPF | Similar to the "q" but here it is just because the "v" looks like a "w" (or at least half a "w") and is used similar to "f" |
 | w | -NP | This combination is purely random |
