@@ -63,7 +63,7 @@ class Stroke(BaseStroke):
 Stroke.setup(KEYS, IMPLICIT_HYPHEN_KEYS)
 
 
-class SyllatypeDictionary(StenoDictionary):
+class JSONSyllatypeDictionary(StenoDictionary):
     readonly = False
 
     def __init__(self) -> None:
@@ -130,7 +130,7 @@ class SyllatypeDictionary(StenoDictionary):
 
             if rep_cap: key_head = key_head.replace("^", "")
             if rep_att: key_head = key_head.replace("<", "")
-            new_key = (key_head, key_tail)
+            new_key = (key_head, *key_tail)
 
             if new_key in self._dict:
                 candidate = self[new_key]
@@ -169,7 +169,7 @@ def split_entry(line: str) -> Tuple[str, str]:
     return word.strip(), outline.strip()
 
 
-class SyllatypeWordDictionary(SyllatypeDictionary):
+class SyllatypeDictionary(JSONSyllatypeDictionary):
     def _load(self, filename: str) -> None:
         with open(filename, "r", encoding="utf-8") as fp:
             for line in fp.readlines():

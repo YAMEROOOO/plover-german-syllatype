@@ -1,5 +1,5 @@
 {
 "*": "=undo",
-"-PT": "{PLOVER:TOGGLE}",
+"-TP": "{PLOVER:TOGGLE}",
 "-*": "=undo"
 }

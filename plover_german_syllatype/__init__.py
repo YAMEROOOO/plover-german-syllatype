@@ -1,1 +1,1 @@
-from plover_german_syllatype.dictionary import SyllatypeDictionary, SyllatypeWordDictionary
+from plover_german_syllatype.dictionary import JSONSyllatypeDictionary, SyllatypeDictionary

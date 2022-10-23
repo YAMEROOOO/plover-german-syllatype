@@ -26,7 +26,11 @@ ORTHOGRAPHY_WORDLIST = None
 
 DICTIONARIES_ROOT = "asset:plover_german_syllatype:dictionaries"
 
-DEFAULT_DICTIONARIES = tuple()
+DEFAULT_DICTIONARIES = (
+    "syllatype_main.jsyl", 
+    "syllatype_commands.json", 
+    "syllatype_characters.json"
+)
 
 
 def build_map(
