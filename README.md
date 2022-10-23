@@ -18,9 +18,9 @@ This is the system plugin for YAMERO's German stenography system, designed by [Y
       - [Steno order](#steno-order)
       - [Details](#details)
   - [Dealing with Conflicting Words](#dealing-with-conflicting-words)
-      - [1. Option:](#1.-option)
-      - [2. Option 2:](#2.-option)
-      - [3. Option 3:](#3.-option)
+      - [1. Option:](#1-option)
+      - [2. Option:](#2-option)
+      - [3. Option:](#3-option)
   - [List of Conflicting Words](#list-of-conflicting-words)
   - [Addendum](#addendum)
 
