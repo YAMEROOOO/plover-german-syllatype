@@ -80,6 +80,7 @@ But there are still letters missing like c, j, l, o, q, v, w, x, y and ß as wel
 | ö | AIU | Since "o" is `IU` just doing `EIU` would be the same as "ü" so it had to be another combination with `IU` (the only one being left was `AIU`) |
 | ü | EIU | Same as "ä" (and also the reason why "y" can’t be `EIU`) |
 | ß | -PSK | This combination is purely random |
+
 (Here the letter "l" has two input methods, depending on the side the l is needed)
 
 ## Other combinations:
