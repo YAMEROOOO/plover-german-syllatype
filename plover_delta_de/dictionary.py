@@ -115,10 +115,8 @@ class DeltaDictionary(StenoDictionary):
 
         capitalized = "^" in key[0]
         attach = "<" in key[0]
-        if not (capitalized or attach):
-            return fallback
         
-        new_candidate = None
+        candidate = None
         new_cap = False
         new_att = False
         for rep_cap, rep_att in [
@@ -135,19 +133,22 @@ class DeltaDictionary(StenoDictionary):
             new_key = (key_head, key_tail)
 
             if new_key in self._dict:
-                new_candidate = self[new_key]
+                candidate = self[new_key]
                 new_cap = rep_cap
                 new_att = rep_att
                 break
         
-        if not new_candidate:
+        if not candidate:
             return fallback
 
         return (
             "{^}" * (attach and new_att) +
             "{-|}" * (capitalized and new_cap) +
-            new_candidate
+            candidate
         )
+
+    def __contains__(self, key):
+        return bool(self.get(key))
 
 
 def split_entry(line: str) -> Tuple[str, str]:
