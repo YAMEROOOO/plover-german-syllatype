@@ -79,7 +79,7 @@ But there are still letters missing like c, j, l, o, q, v, w, x, y and ß as wel
 | ä | AEI | To differetiate "ae" and "ä" an `I` was added (because German has no "Ï") |
 | ö | AIU | Since "o" is `IU` just doing `EIU` would be the same as "ü" so it had to be another combination with `IU` (the only one being left was `AIU`) |
 | ü | EIU | Same as "ä" (and also the reason why "y" can’t be `EIU`) |
-| ß |
+| ß | -PSK | This combination is purely random |
 (Here the letter "l" has two input methods, depending on the side the l is needed)
 
 ## Other combinations:
@@ -165,7 +165,7 @@ Missing Letters and other combinations can be accessed by these key combinations
 | m | -N* | | d | -T* | | c | -PK | | j | *I |
 | l | TN- | | l | -R> | | o | IU | | q | -NPK |
 | v | -NPF | | w | -NP | | x | -RPSK | | y | EU* |
-| ä | AEI | | ö | AIU | | ü | EIU | | ß |
+| ä | AEI | | ö | AIU | | ü | EIU | | ß | -PSK |
 | ff | -F> | | pp | -P> | | bb | -P*> | | nn | -N> |
 | mm | -N*> | | gg | -K*> | | ss | -S> | | zz | -S*> |
 | tt | -T*> | | rr | -RNP | | ll | -RNP> | | aa | A*> |
