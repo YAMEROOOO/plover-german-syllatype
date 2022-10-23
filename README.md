@@ -155,7 +155,7 @@ K- S- T- R- ^     < -R -T -S -K ->
 Steno order:
 `SKFPTNR*AEIURNTPSKF*>`
 
-The theory is orthographic and revolves around typing each syllable instead of each word, so the syllable has to be attached zo the previous one if needed. To do that, the `<` (also called the g(lue)-key) is used together with the second syllable. Syllables that can't be written in one stroke are treated as separate syllables (so "safe" is `SA/<FE`).
+The theory is orthographic and revolves around typing each syllable instead of each word, so the syllable has to be attached to the previous one if needed. To do that, the `<` (also called the g(lue)-key) is used together with the second syllable. Syllables that can't be written in one stroke are treated as separate syllables (so "safe" is `SA/<FE`).
 Capitalization is achieved by pressing `^` (also called the c(apitalize)-key) together with the syllable that needs to be capitalized.
 The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side or differentiating "sch" from "chs" (though combinations of "ch" and "z" do NOT require the addition of the `>` key as in "schluchtz" (`SKFTNUTSKF*`) for example).
 Missing Letters and other combinations can be accessed by these key combinations:
