@@ -18,9 +18,9 @@ This is the system plugin for YAMERO's German stenography system, designed by [Y
       - [Steno order](#steno-order)
       - [Details](#details)
   - [Dealing with Conflicting Words](#dealing-with-conflicting-words)
-      - [Option 1:](#option-1)
-      - [Option 2:](#option-2)
-      - [Option 3:](#option-3)
+      - [1. Option:](#1.-option)
+      - [2. Option 2:](#2.-option)
+      - [3. Option 3:](#3.-option)
   - [List of Conflicting Words](#list-of-conflicting-words)
   - [Addendum](#addendum)
 
@@ -229,17 +229,17 @@ Missing Letters and other combinations can be accessed by these key combinations
 
 Some words will still create issues because they have the same stroke as some other word. To differentiate them, the first working option in the following list should be used:
 
-#### Option 1:
+#### 1. Option:
 **Example:** hemd=`F*ENT*>`=hemmt ; **Solution:** hem?=`F*ENT*>` ; hemd=`F*E_*NT.*T` ; hemmt=`F*E_*NT.*NT`
 
 Replace the part of the translation where the disambiguation happened with a "?" to indicate to the user that further input is required. Then in the second stroke, the user can input the missing letters that got replaced by the "?" (without the need to add the g-key).
 
-#### Option 2:
+#### 2. Option:
 **Example:** samt=`SANT*`=sand ; **Solution:** sant?=`SANT*` ; samt=`SAN*T.*N` ; sand=`SANT*.*T`
 
 Replace the part of the translation where the disambiguation occurs with the unchanged form of the characters (in this case the counterpart "m" will change back to "n" or the counterpart "d" will change back to "t") and add a "?" at the part where the disambiguation happened to indicate to the user that further input is required. Then in the second stroke, the user can input the counterpart of the letter which needs to be changed (without the need to add the g-key).
 
-#### Option 3:
+#### 3. Option:
 **Example:** psi=`SPI`=spi ; **Solution:** psi=`SPI*` ; spi=`SPI`
 
 Add a `-*` (or a `->` if `-*` is already used) in the raw steno of the syllable that is not in steno order (or is the one which uses hidden letters). If this creates an issue with another entry, add the `*-` (or a `->` if `*-` is already used) in the raw steno of the syllable that is not in steno order (or is the one which uses hidden letters).
