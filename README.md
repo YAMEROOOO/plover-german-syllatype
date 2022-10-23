@@ -17,10 +17,11 @@ This is the system plugin for YAMERO's German stenography system, designed by [Y
       - [Layout](#layout)
       - [Steno order](#steno-order)
       - [Details](#details)
-  - [List of Conflicting Words](#list-of-conflicting-words)
+  - [Dealing with Conflicting Words](#dealing-with-conflicting-words)
       - [Option 1:](#option-1)
       - [Option 2:](#option-2)
       - [Option 3:](#option-3)
+  - [List of Conflicting Words](#list-of-conflicting-words)
   - [Addendum](#addendum)
 
 
@@ -224,7 +225,7 @@ Missing Letters and other combinations can be accessed by these key combinations
 
 (Keep in mind that all combinations work for the left side as well, except for the ones where the left side has a different input)
 
-## List of Conflicting Words
+## Dealing with Conflicting Words
 
 Some words will still create issues because they have the same stroke as some other word. To differentiate them, the first working option in the following list should be used:
 
@@ -244,7 +245,9 @@ Replace the part of the translation where the disambiguation occurs with the unc
 Add a `-*` (or a `->` if `-*` is already used) in the raw steno of the syllable that is not in steno order (or is the one which uses hidden letters). If this creates an issue with another entry, add the `*-` (or a `->` if `*-` is already used) in the raw steno of the syllable that is not in steno order (or is the one which uses hidden letters).
 Note: This Option requires memorization of this disambiguation.
 
-The conflicting words are listed here (in .dwd):
+## List of Conflicting Words
+
+The conflicting words are listed in .dwd:
 
 | Option | Conflicts | |
 | :---: | :---: | :---: |
