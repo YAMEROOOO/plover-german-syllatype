@@ -56,8 +56,8 @@ KEYMAP_LAYOUTS = {
     ), None),
 
     "Keyboard": ((
-        "q  w  e  r  t   u  i  o  p  [ ]"
-        "a  s  d  f  g   j  k  l  ;  ' \\"
+        "q  w  e  r  t   u  i  o  p  [ ] "
+        "a  s  d  f  g   j  k  l  ;  ' \\ "
                  "v  b   n  m"
     ), (
         "1", "2", "3", "4", "5", "6", "7", "8", 

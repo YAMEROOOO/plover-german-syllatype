@@ -35,7 +35,6 @@ class Stroke(BaseStroke):
         order = cls.init_key_order
         in_init = True
         in_final = False
-        # first_e = False
         for char in stroke:
             if in_init and (char == "-" or char in cls.medial_keys):
                 order = cls.post_key_order
@@ -44,18 +43,10 @@ class Stroke(BaseStroke):
             if not in_init and not in_final:
                 if char not in cls.medial_keys:
                     in_final = True
-                # elif char == "E" and first_e:
-                #     char = "e"
             elif in_final and char in cls.medial_keys:
-                # if char == "E":
-                #     char = "e"
-                # else:
                 raise ValueError(
                     f"Invalid stroke: Medial in wrong position in {stroke}"
                 )
-            
-            # if char == "E":
-            #     first_e = True
 
             if char != "-":
                 to_add = 1 << order[char]
@@ -101,7 +92,6 @@ class DeltaDictionary(StenoDictionary):
                 self._reorder_map.get(
                     ordered, 
                     ordered
-                    # ordered.replace("e", "E")
                 ),
                 translation
             ))
@@ -118,9 +108,6 @@ class DeltaDictionary(StenoDictionary):
             )
 
             fp.write("\n")
-    
-    def __contains__(self, key: Tuple[str]) -> bool:
-        return False
     
     def get(self, key: Tuple[str], fallback=None) -> str:
         if len(key) > self._longest_key:
@@ -206,7 +193,7 @@ class DeltaWordDictionary(DeltaDictionary):
                 translation.replace(",", "\,"),
                 self._reorder_map.get(
                     ordered, 
-                    ordered.replace("/", ".").replace("e", "E")
+                    ordered.replace("/", ".")
                 )
             ))
         
