@@ -4,7 +4,7 @@ from typing import Tuple
 from plover.steno_dictionary import StenoDictionary
 from plover_stroke import BaseStroke
 
-from plover_delta_de.system import KEYS, IMPLICIT_HYPHEN_KEYS
+from plover_german_syllatype.system import KEYS, IMPLICIT_HYPHEN_KEYS
 
 
 class Stroke(BaseStroke):
@@ -63,7 +63,7 @@ class Stroke(BaseStroke):
 Stroke.setup(KEYS, IMPLICIT_HYPHEN_KEYS)
 
 
-class DeltaDictionary(StenoDictionary):
+class SyllatypeDictionary(StenoDictionary):
     readonly = False
 
     def __init__(self) -> None:
@@ -169,7 +169,7 @@ def split_entry(line: str) -> Tuple[str, str]:
     return word.strip(), outline.strip()
 
 
-class DeltaWordDictionary(DeltaDictionary):
+class SyllatypeWordDictionary(SyllatypeDictionary):
     def _load(self, filename: str) -> None:
         with open(filename, "r", encoding="utf-8") as fp:
             for line in fp.readlines():

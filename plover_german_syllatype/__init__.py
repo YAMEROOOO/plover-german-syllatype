@@ -1,0 +1,1 @@
+from plover_german_syllatype.dictionary import SyllatypeDictionary, SyllatypeWordDictionary

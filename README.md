@@ -1,12 +1,12 @@
-PyPI: This project has been renamed [plover-german-syllatype](https://pypi.org/project/plover-german-syllatype/).
+# YAMERO's German Syllatype
 
-# YAMERO's German Stenotype
+This is the system plugin for YAMERO's German Syllatype system, designed by [YAMERO](https://github.com/YAMEROOOO) and implemented by [Kaoffie](https://github.com/Kaoffie).
 
-This is the system plugin for YAMERO's German stenography system, designed by [YAMERO](https://github.com/YAMEROOOO) and implemented by [Kaoffie](https://github.com/Kaoffie).
+Older versions of this system on PyPI can be found under the name [plover-delta-de](https://pypi.org/project/plover-delta-de/).
 
 ## Contents:
 
-- [YAMERO's German Stenotype](#yameros-german-stenotype)
+- [YAMERO's German Syllatype](#yameros-german-syllatype)
   - [Contents:](#contents)
   - [Introduction:](#introduction)
   - [Rules:](#rules)

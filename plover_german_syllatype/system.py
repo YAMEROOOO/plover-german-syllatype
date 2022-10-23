@@ -24,7 +24,7 @@ ORTHOGRAPHY_RULES_ALIASES = {}
 
 ORTHOGRAPHY_WORDLIST = None
 
-DICTIONARIES_ROOT = "asset:plover_delta_de:dictionaries"
+DICTIONARIES_ROOT = "asset:plover_german_syllatype:dictionaries"
 
 DEFAULT_DICTIONARIES = tuple()
 

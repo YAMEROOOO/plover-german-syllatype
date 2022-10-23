@@ -1,1 +1,0 @@
-from plover_delta_de.dictionary import DeltaDictionary, DeltaWordDictionary
