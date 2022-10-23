@@ -105,8 +105,8 @@ But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as w
 | :---: | :---: | :---: |
 | c | `-PK` |This combination is purely random |
 | j | `*I` | "i" looks kind of like "j" so "j" is the counterpart of `I` |
-| Left L | `TN-` | This combination is random |
-| Right L | `-R>` | This is random aswell and will be explained in the next chapter |
+| l (Left L) | `TN-` | This combination is random |
+| l (Right L) | `-R>` | This is random aswell and will be explained in the next chapter |
 | o | `IU` | One vowel had to go and "o" was the least common, also "o" usually never appears together with either "i" or "u" |
 | q | `-NPK` | Words that start with "q" usually sound like "kw" (which is `KNP`) |
 | v | `-NPF` | Similar to the "q" but here it is just because the "v" looks like a "w" (or at least half a "w") and is used similar to "f" |
@@ -134,26 +134,26 @@ Here are all the combinations from this chapter:
 
 | Output | Input |
 | :---: | :---: |
-| ff | -F> |
-| pp | -P> |
-| bb | -P*> |
-| nn | -N> |
-| mm | -N*> |
-| gg | -K*> |
-| ss | -S> |
-| zz | -S*> |
-| tt | -T*> |
-| rr | -RNP |
-| ll | -RNP> |
-| aa | A*> |
-| ee | E*> |
-| oo | IU*> |
-| sch | -SKF |
-| chs | -SKF> |
-| ch | -KF |
-| ck | -RPK |
-| ck | KPR- |
-| ie | AE |
+| ff | `-F>` |
+| pp | `-P>` |
+| bb | `-P*>` |
+| nn | `-N>` |
+| mm | `-N*>` |
+| gg | `-K*>` |
+| ss | `-S>` |
+| zz | `-S*>` |
+| tt | `-T*>` |
+| rr | `-RNP` |
+| ll | `-RNP>` |
+| aa | `A*>` |
+| ee | `E*>` |
+| oo | `IU*>` |
+| sch | `-SKF` |
+| chs | `-SKF>` |
+| ch | `-KF` |
+| ck | `-RPK` |
+| ck | `KPR-` |
+| ie | `AE` |
 
 
 ## Dictionary Formats
