@@ -6,9 +6,9 @@ KEYS = tuple(
     "-R -N -T -P -S -K -F -* ->".split()
 )
 
-IMPLICIT_HYPHEN_KEYS = ("E-", "A-", "-I", "-U")
+IMPLICIT_HYPHEN_KEYS = ("A-", "E-", "-I", "-U")
 
-SUFFIX_KEYS = ("-e", )
+SUFFIX_KEYS = tuple()
 
 NUMBER_KEY = None
 

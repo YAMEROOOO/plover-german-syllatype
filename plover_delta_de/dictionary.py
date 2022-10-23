@@ -51,7 +51,7 @@ class Stroke(BaseStroke):
                 #     char = "e"
                 # else:
                 raise ValueError(
-                    "Invalid stroke: Medial in wrong position"
+                    f"Invalid stroke: Medial in wrong position in {stroke}"
                 )
             
             # if char == "E":
@@ -60,7 +60,9 @@ class Stroke(BaseStroke):
             if char != "-":
                 to_add = 1 << order[char]
                 if to_add & as_bin:
-                    raise ValueError("Invalid stroke: Duplicate key")
+                    raise ValueError(
+                        f"Invalid stroke: Duplicate key in {stroke}"
+                    )
 
                 as_bin += to_add
         
