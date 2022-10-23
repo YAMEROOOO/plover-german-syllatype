@@ -35,7 +35,7 @@ class Stroke(BaseStroke):
         order = cls.init_key_order
         in_init = True
         in_final = False
-        first_e = False
+        # first_e = False
         for char in stroke:
             if in_init and (char == "-" or char in cls.medial_keys):
                 order = cls.post_key_order
@@ -44,18 +44,18 @@ class Stroke(BaseStroke):
             if not in_init and not in_final:
                 if char not in cls.medial_keys:
                     in_final = True
-                elif char == "E" and first_e:
-                    char = "e"
+                # elif char == "E" and first_e:
+                #     char = "e"
             elif in_final and char in cls.medial_keys:
-                if char == "E":
-                    char = "e"
-                else:
-                    raise ValueError(
-                        "Invalid stroke: Medial in wrong position"
-                    )
+                # if char == "E":
+                #     char = "e"
+                # else:
+                raise ValueError(
+                    "Invalid stroke: Medial in wrong position"
+                )
             
-            if char == "E":
-                first_e = True
+            # if char == "E":
+            #     first_e = True
 
             if char != "-":
                 to_add = 1 << order[char]
@@ -98,7 +98,8 @@ class DeltaDictionary(StenoDictionary):
             mappings.append((
                 self._reorder_map.get(
                     ordered, 
-                    ordered.replace("e", "E")
+                    ordered
+                    # ordered.replace("e", "E")
                 ),
                 translation
             ))
@@ -122,27 +123,41 @@ class DeltaDictionary(StenoDictionary):
     def get(self, key: Tuple[str], fallback=None) -> str:
         if len(key) > self._longest_key:
             return fallback
-        
-        if key in self._dict:
-            return self[key]
 
         capitalized = "^" in key[0]
         attach = "<" in key[0]
         if not (capitalized or attach):
             return fallback
         
-        new_key = (
-            key[0].replace("^", "").replace("<", ""),
-            *key[1:]
-        )
+        new_candidate = None
+        new_cap = False
+        new_att = False
+        for rep_cap, rep_att in [
+            (False, False),
+            (False, True),
+            (True, False),
+            (True, True)
+        ]:
+            key_head = key[0]
+            key_tail = key[1:]
 
-        if new_key not in self._dict:
-            return fallback
+            if rep_cap: key_head = key_head.replace("^", "")
+            if rep_att: key_head = key_head.replace("<", "")
+            new_key = (key_head, key_tail)
+
+            if new_key in self._dict:
+                new_candidate = self[new_key]
+                new_cap = rep_cap
+                new_att = rep_att
+                break
         
+        if not new_candidate:
+            return fallback
+
         return (
-            "{^}" * attach +
-            "{-|}" * capitalized +
-            self[new_key]
+            "{^}" * (attach and new_att) +
+            "{-|}" * (capitalized and new_cap) +
+            new_candidate
         )
 
 
