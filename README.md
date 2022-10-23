@@ -1,6 +1,6 @@
 # Delta's German Stenography
 
-This is the system plugin for Delta's German stenography system, designed by [delta](https://github.com/YAMEROOOO) and implemented by Kaoffie.
+This is the system plugin for Delta's German stenography system, designed by [YAMERO](https://github.com/YAMEROOOO) and implemented by Kaoffie.
 
 ## Contents:
 
