@@ -62,7 +62,7 @@ KEYMAP_LAYOUTS = {
     "Keyboard": ((
         "q  w  e  r  t   u  i  o  p  [ ] "
         "a  s  d  f  g   j  k  l  ;  ' \\ "
-                 "v  b   n  m"
+                 "c  v   m  <"
     ), (
         "1", "2", "3", "4", "5", "6", "7", "8", 
         "9", "0", "-", "=", 
