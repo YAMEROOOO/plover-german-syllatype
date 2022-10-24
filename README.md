@@ -257,6 +257,7 @@ The conflicting words are listed in .dwd:
 | 2 | brems, `PR*E*NS.*N` | brenz, `PR*E*NS.*S` |
 | 3 | psi, `SPI*` | spi, `SPI` |
 | 1 | hemd, `F*E_*NT.*T` | hemmt, `F*E_*NT.*NT` |
+| 3 | tou, `TIU*` | to, `TIU` |
 
 If more disambiguations are found, they will be added here.
 
