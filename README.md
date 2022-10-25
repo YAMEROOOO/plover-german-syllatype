@@ -95,7 +95,7 @@ Some letters like "d" and "m" can't be found on the keys. To access these, a spe
 | d | `-T*` |
 
 
-> These can of course be written on both sides, for the sake of simplicity this will only cover the left side if it is different from the right side
+> These can of course be written on both sides, for the sake of simplicity this will only cover the left side if it is different from the right side.
 
 The only letter which does not have a counterpart here is the `R` key. The reason behind this and the further uses of this key (as well as it’s hidden counterpart) will be explained later on.
 
@@ -121,7 +121,7 @@ But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as w
 | ü | `EIU` | Same as "ä" (and also the reason why "y" can’t be `EIU`) |
 | ß | `-PSK` | This combination is purely random |
 
-(Here the letter "l" has two input methods, depending on the side the l is needed)
+> Here the letter "l" has two input methods, depending on the side the l is needed.
 
 ## Other combinations:
 
