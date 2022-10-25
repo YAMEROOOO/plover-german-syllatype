@@ -175,7 +175,7 @@ This system supports all regular dictionary formats, such as json. It also comes
 
 ### SYL Dictionaries
 
-Use `\:` to escape `:`.
+Use `\:` to escape `:` as in: `03\:00: TR*EIURF*`.
 
 ```
 steno: STE/NUI
