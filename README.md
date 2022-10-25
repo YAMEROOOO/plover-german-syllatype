@@ -164,24 +164,24 @@ Here are all the combinations from this chapter:
 This system supports all regular dictionary formats, such as json. It also comes with support for two additional formats: **DSD**, and **DWD**. In both formats, keys within the left bank (`SKFPTNR*`), vowel bank (`AEIU`), and right banks (`-RNTPSKF*>`) can be arranged in any order within the bank itself.
 
 
-### DSD Dictionaries
+### JSYL Dictionaries
 
-```json
+```jsyl
 {
-"STE.NUI": "steno",
-"STE.NUI.K*RAF": "stenograf",
-"STE.NUI.K*RA.PF*EA": "stenographie"
+"STE/NUI": "steno",
+"STE/NUI/K*RAF": "stenograf",
+"STE/NUI/K*RA/PF*EA": "stenographie"
 }
 ```
 
-### DWD Dictionaries
+### SYL Dictionaries
 
-Use `\,` to escape commas.
+Use `\:` to escape `:`.
 
 ```
-steno, STE.NUI
-stenograf, STE.NUI.K*RAF
-stenographie, STE.NUI.K*RA.PF*EA
+steno: STE/NUI
+stenograf: STE/NUI/K*RAF
+stenographie: STE/NUI/K*RA/PF*AE
 ```
 
 ## TLDR
