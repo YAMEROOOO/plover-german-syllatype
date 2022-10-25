@@ -155,7 +155,6 @@ Here are all the combinations from this chapter:
 | chs | `-SKF>` |
 | ch | `-KF` |
 | ck | `-RPK` |
-| ck | `KPR-` |
 | ie | `AE` |
 
 
@@ -223,7 +222,7 @@ Missing Letters and other combinations can be accessed by these key combinations
 | mm | `-N*>` | | gg | `-K*>` | | ss | `-S>` | | zz | `-S*>` |
 | tt | `-T*>` | | rr | `-RNP` | | ll | `-RNP>` | | aa | `A*>` |
 | ee | `E*>` | | oo | `IU*>` | | sch | `-SKF` | | chs | `-SKF>` |
-| ch | `-KF` | | ck | `-RPK` | | ck | `KPR-` | | ie | `AE` |
+| ch | `-KF` | | ck | `-RPK` | | ie | `AE` |
 
 (Keep in mind that all combinations work for the left side as well, except for the ones where the left side has a different input)
 
