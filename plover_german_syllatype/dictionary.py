@@ -155,9 +155,9 @@ def split_entry(line: str) -> Tuple[str, str]:
     word = ""
     last = ""
     for i, c in enumerate(line):
-        if c == "," and last != "\\":
+        if c == ":" and last != "\\":
             return (
-                word.replace("\,", ",").strip(), 
+                word.replace("\:", ":").strip(), 
                 line[i+1:].strip()
             )
 
@@ -165,7 +165,7 @@ def split_entry(line: str) -> Tuple[str, str]:
         last = c
     
     # Fallback
-    word, outline = line.strip().split(",", 1)
+    word, outline = line.strip().split(":", 1)
     return word.strip(), outline.strip()
 
 
@@ -173,14 +173,14 @@ class SyllatypeDictionary(JSONSyllatypeDictionary):
     def _load(self, filename: str) -> None:
         with open(filename, "r", encoding="utf-8") as fp:
             for line in fp.readlines():
-                if "," not in line:
+                if ":" not in line:
                     continue
 
                 word, unordered = split_entry(line)
                 ordered = tuple(
                     str(Stroke.from_stroke(stroke))
                     for stroke in
-                    unordered.split(".")
+                    unordered.split("/")
                 )
 
                 self._reorder_map[ordered] = unordered
@@ -191,10 +191,10 @@ class SyllatypeDictionary(JSONSyllatypeDictionary):
         for strokes, translation in self.items():
             ordered = "/".join(strokes)
             mappings.append((
-                translation.replace(",", "\,"),
+                translation.replace(":", r"\:"),
                 self._reorder_map.get(
                     ordered, 
-                    ordered.replace("/", ".")
+                    ordered
                 )
             ))
         
