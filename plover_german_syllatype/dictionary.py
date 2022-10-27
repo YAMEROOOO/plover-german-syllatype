@@ -157,7 +157,7 @@ def split_entry(line: str) -> Tuple[str, str]:
     for i, c in enumerate(line):
         if c == ":" and last != "\\":
             return (
-                word.replace("\:", ":").strip(), 
+                word.replace(r"\:", ":").strip(), 
                 line[i+1:].strip()
             )
 
