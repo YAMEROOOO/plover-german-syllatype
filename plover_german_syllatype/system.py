@@ -27,9 +27,9 @@ ORTHOGRAPHY_WORDLIST = None
 DICTIONARIES_ROOT = "asset:plover_german_syllatype:dictionaries"
 
 DEFAULT_DICTIONARIES = (
-    "syllatype_main.jsyl", 
-    "syllatype_commands.json", 
-    "syllatype_characters.json"
+    "syllatype_main.syl", 
+    "syllatype_commands.syl", 
+    "syllatype_characters.syl"
 )
 
 
