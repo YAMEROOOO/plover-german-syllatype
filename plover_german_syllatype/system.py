@@ -83,8 +83,8 @@ KEYMAP_LAYOUTS = {
 }
 
 LAYOUT = (
-    "F- P- N- *- ^    < -* -N -P -F -> "
-    "K- S- T- R- ^    < -R -T -S -K -> "
+    "F- T- N- *- ^    > -* -N -T -F -< "
+    "K- S- P- R- ^    > -R -P -S -K -< "
              "A- E-  -I -U"
 )
 
