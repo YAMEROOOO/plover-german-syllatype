@@ -120,6 +120,19 @@ class JSONSyllatypeDictionary(StenoDictionary):
         self.reverse[output].append(key)
         self.casereverse[output.lower()].append(output)
 
+    def update(self, *args, **kwargs) -> None:
+        iterable_list = [
+            a.items() if isinstance(a, (dict, StenoDictionary))
+            else a for a in args
+        ]
+
+        if kwargs:
+            iterable_list.append(kwargs.items())
+        
+        for iterable in iterable_list:
+            for key, output in iterable:
+                self.add_entry(key, output)
+
     def get(self, key: Tuple[str], fallback=None) -> str:
         if len(key) > self._longest_key:
             return fallback
@@ -213,4 +226,4 @@ class SyllatypeDictionary(JSONSyllatypeDictionary):
 
         with open(filename, "w", encoding="utf-8", newline="\n") as fp:
             for (translation, outline) in mappings:
-                fp.write(f"{translation}, {outline}\n")
+                fp.write(f"{translation}: {outline}\n")
