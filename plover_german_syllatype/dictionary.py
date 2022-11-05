@@ -82,7 +82,7 @@ class JSONSyllatypeDictionary(StenoDictionary):
             )
 
             self._reorder_map[ordered] = unordered
-            self[ordered] = output
+            self.add_entry(ordered, output)
     
     def _save(self, filename: str) -> None:
         mappings = []
@@ -109,6 +109,17 @@ class JSONSyllatypeDictionary(StenoDictionary):
 
             fp.write("\n")
     
+    def add_entry(self, key: Tuple[str], output: str) -> str:
+        # We have to use this instead of __setitem__ because
+        # reverse dictionary checks will tell you that the
+        # dictionary contains entries that aren't in _dict
+        # due to the ^ and < keys.
+
+        self._longest_key = max(self._longest_key, len(key))
+        self._dict[key] = output
+        self.reverse[output].append(key)
+        self.casereverse[output.lower()].append(output)
+
     def get(self, key: Tuple[str], fallback=None) -> str:
         if len(key) > self._longest_key:
             return fallback
@@ -133,7 +144,7 @@ class JSONSyllatypeDictionary(StenoDictionary):
             new_key = (key_head, *key_tail)
 
             if new_key in self._dict:
-                candidate = self[new_key]
+                candidate = self._dict[new_key]
                 new_cap = rep_cap
                 new_att = rep_att
                 break
@@ -184,8 +195,8 @@ class SyllatypeDictionary(JSONSyllatypeDictionary):
                 )
 
                 self._reorder_map[ordered] = unordered
-                self[ordered] = word.strip()
-    
+                self.add_entry(ordered, word.strip())
+
     def _save(self, filename: str) -> None:
         mappings = []
         for strokes, translation in self.items():
