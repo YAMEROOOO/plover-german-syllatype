@@ -56,7 +56,7 @@ An example with this theory would be this:
 
 > Reminder: These instructions are for this German theory and thus my further examples will revolve around this theory.
 
-The steno layout and order for my theory are the following and can also be seen in the image below:
+The steno layout and order for my theory are the following:
 
 Layout:
 ```
@@ -68,7 +68,6 @@ K- S- P- R- ^    -> -R -P -S -K <
 Steno order:
 `SKFPTNR*AEIURNTPSKF*>`
 
-![keys](https://user-images.githubusercontent.com/71076286/196929655-74b2221c-be4d-4d86-bf3f-631639927a7b.png)
 
 
 ## Rules:
