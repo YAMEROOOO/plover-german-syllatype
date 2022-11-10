@@ -76,9 +76,9 @@ This system is orthographic. This means that all words are written as one would 
 
 Right now though, this chapter will only talk about the basics of this plugin. Each word has to be written in syllables, and those syllables have to have vowels in the middle and optionally consonants on the sides. There can't be syllables such as "Safe" (which is an English word used by Germans) because there are vowels in the middle AND at the end of the syllable. (Remember that a stroke has three parts, an initial part with only consonants from the left bank, a middle part with only vowels from the middle bank, and a final part with only consonants from the right bank.) Hence, "Safe" would have to be split into 2 Syllables in order to be written. Pressing `SA` and the `FE` would be the way, though trying this out will output "sa fe" instead of "Safe". 
 
-Here, the `^` and `<` keys are needed, also called "capitalize-key" or "c-key" and "glue-(together)-key" or "g-key". These (as their names suggest) capitalize a syllable or "glue" a syllable to the previous one (that is the reason why the arrows point in these directions). To capitalize a syllable, one simply needs to press the c-key together with the other keys of the stroke. In the example of "Safe" one would press `^SA` to get "Sa". Now to glue the second syllable to the first one simply presses the g-key together with the syllable that needs to be attached to the previously written part. Doing this together will output "Safe" (by inputting `^SA/<FE`).
+Here, the `^` and `<` keys are needed, also called "capital-key" and "no-space-key". These (as their names suggest) capitalize a syllable or supress the automatic addition of a space before the respective stroke (that is the reason why the arrows point in these directions). To capitalize a syllable, one simply needs to press `^` together with the other keys of the stroke. In the example of "Safe" one would press `^SA` to get "Sa". Now to attach the second syllable to the first one simply presses `<` together with the syllable that needs to be attached to the previously written part. Doing this together will output "Safe" (by inputting `^SA/<FE`).
 
-The reason this is so different from most other stenography systems (that usually operate on words rather than syllables that need to be "glued" together manually) is that the nature of the German language requires such a system. In German one can combine a lot of words (especially nouns) and get a perfectly fine German word. Like "Müll" ("trash") and "Eimer" ("bucket") gives "Mülleimer" ("trashcan"). So far so good, but in German this keeps on going further: "Plastikmülleimerdeckel" ("plastic trashcan lid") is one German word and there are a lot of those really long ones.
+The reason this is so different from most other stenography systems (that usually operate on words rather than syllables that need to be attached together manually) is that the nature of the German language requires such a system. In German one can combine a lot of words (especially nouns) and get a perfectly fine German word. Like "Müll" ("trash") and "Eimer" ("bucket") gives "Mülleimer" ("trashcan"). So far so good, but in German this keeps on going further: "Plastikmülleimerdeckel" ("plastic trashcan lid") is one German word and there are a lot of those really long ones.
 
 ## Hidden letters:
 
@@ -124,7 +124,7 @@ But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as w
 
 ## Other combinations:
 
-There are some other issues one can run into while trying to write certain words like "bann", "zahm" or "siel". These require other combinations as well as the `>` key (which acts as another extra key similar to the `*` and is not to be confused with the g-key). 
+There are some other issues one can run into while trying to write certain words like "bann", "zahm" or "siel". These require other combinations as well as the `>` key (which acts as another extra key similar to the `*` and is not to be confused with the `<` key). 
 
 Usually the `>` key is used to double a letter like the "n" in "bann". To write "bann" one simply strokes `P*AN>`. The same works with most of the other letters except for "r" and "l" which, due to "l" being `-R>` on the right side, have other combinations which will be listed below. Also, if a vowel needs to be doubled like in "see" or "tee" one simply types the vowel along with the `>` and the right `*` (so "see" would be `SE*>` and "tee" would be `TE*>`). The `>` key can also be used if the `*` needs to be doubled, like in the word "zahm" which would be `S*ANF**` (rearranged from `S*AF*N*`) but needs to be stroked as `S*ANF*>`. 
 
@@ -202,9 +202,9 @@ K- S- P- R- ^    -> -R -P -S -K <
 
 #### Details
 
-The theory is orthographic and revolves around typing each syllable instead of each word, so the syllable has to be attached to the previous one if needed. To do that, the `<` (also called the g(lue)-key) is used together with the second syllable. Syllables that can't be written in one stroke are treated as separate syllables (so "safe" is `SA/<FE`).
+The theory is orthographic and revolves around typing each syllable instead of each word, so the syllable has to be attached to the previous one if needed. To do that, the `<` (also called the no-space-key) is used together with the second syllable. Syllables that can't be written in one stroke are treated as separate syllables (so "safe" is `SA/<FE`).
 
-Capitalization is achieved by pressing `^` (also called the c(apitalize)-key) together with the syllable that needs to be capitalized.
+Capitalization is achieved by pressing `^` (also called the capital-key) together with the syllable that needs to be capitalized.
 
 The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side or differentiating "sch" from "chs" (though combinations of "ch" and "z" do NOT require the addition of the `>` key as in "schluchz" (`SKFTNUSKF*`) for example).
 
@@ -232,12 +232,12 @@ Some words will still create issues because they have the same stroke as some ot
 #### 1. Option:
 **Example:** hemd=`F*ENT*>`=hemmt ; **Solution:** hem?=`F*ENT*>` ; hemd=`F*E_*NT.*T` ; hemmt=`F*E_*NT.*NT`
 
-Replace the part of the translation where the disambiguation happened with a "?" to indicate to the user that further input is required. Then in the second stroke, the user can input the missing letters that got replaced by the "?" (without the need to add the g-key).
+Replace the part of the translation where the disambiguation happened with a "?" to indicate to the user that further input is required. Then in the second stroke, the user can input the missing letters that got replaced by the "?" (without the need to add the no-space-key).
 
 #### 2. Option:
 **Example:** samt=`SANT*`=sand ; **Solution:** sant?=`SANT*` ; samt=`SAN*T.*N` ; sand=`SANT*.*T`
 
-Replace the part of the translation where the disambiguation occurs with the unchanged form of the characters (in this case the counterpart "m" will change back to "n" or the counterpart "d" will change back to "t") and add a "?" at the part where the disambiguation happened to indicate to the user that further input is required. Then in the second stroke, the user can input the counterpart of the letter which needs to be changed (without the need to add the g-key).
+Replace the part of the translation where the disambiguation occurs with the unchanged form of the characters (in this case the counterpart "m" will change back to "n" or the counterpart "d" will change back to "t") and add a "?" at the part where the disambiguation happened to indicate to the user that further input is required. Then in the second stroke, the user can input the counterpart of the letter which needs to be changed (without the need to add the no-space-key).
 
 #### 3. Option:
 **Example:** psi=`SPI`=spi ; **Solution:** psi=`SPI*` ; spi=`SPI`
