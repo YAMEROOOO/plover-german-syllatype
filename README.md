@@ -66,7 +66,7 @@ K- S- P- R- ^    -> -R -P -S -K <
 ```
 
 Steno order:
-`SKFTPNR*AEIURNPSKFT*>`
+`STPKFNR*AEIURNPSKFT*>`
 
 
 
