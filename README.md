@@ -105,20 +105,20 @@ But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as w
 
 | Output | Input | Explanation |
 | :---: | :---: | :---: |
-| c | `-PT` | This combination is purely random |
-| j | `-SF` | This combination is random |
-| l (Left L) | `TR-` | This combination is random |
+| c | `-PT` | |
+| j | `-SF` | |
+| l (Left L) | `NR-` | |
 | l (Right L) | `-R>` | This is random aswell and will be explained in the next chapter |
 | o | `IU` | One vowel had to go and "o" was the least common, also "o" usually never appears together with either "i" or "u" |
-| q | `-FT` | Words that start with "q" usually sound like "kw" (which is `KNP`) |
-| v | `-NPF` | Similar to the "q" but here it is just because the "v" looks like a "w" (or at least half a "w") and is used similar to "f" |
-| w | `-PK` | This combination is purely random |
-| x | `-NSK` | The "x" in a word usually sounds like a "ks" (though `R` and `P` are random) |
-| y | `AEU` | "y" in the middle of a word sounds like "ü" (which also can be written as "ue"). The `*` is there to clarify the difference between "y" and "ue". |
+| q | `-FT` | |
+| v | `-NPF` | It looks like V on the new layout |
+| w | `-PK` | |
+| x | `-NSK` | The "x" in a word usually sounds like a "ks" (though the "N" is random) |
+| y | `AEU` | this was the only vocal combination that was left |
 | ä | `AEI` | To differetiate "ae" and "ä" an `I` was added (because German has no "Ï") |
 | ö | `AIU` | Since "o" is `IU` just doing `EIU` would be the same as "ü" so it had to be another combination with `IU` (the only one being left was `AIU`) |
-| ü | `EIU` | Same as "ä" (and also the reason why "y" can’t be `EIU`) |
-| ß | `-RPF` | This combination is purely random |
+| ü | `EIU` | Same as "ä" |
+| ß | `-RPF` | |
 
 > Here the letter "l" has two input methods, depending on the side the l is needed.
 
