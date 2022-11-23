@@ -2,8 +2,8 @@ from typing import Dict, Tuple, Union
 
 
 KEYS = tuple(
-    "# < ^ S- K- F- P- T- N- R- *- A- E- -I -U "
-    "-R -N -T -P -S -K -F -* ->".split()
+    "# < ^ S- T- P- K- F- N- R- *- A- E- -I -U "
+    "-R -N -P -S -K -F -T -* ->".split()
 )
 
 IMPLICIT_HYPHEN_KEYS = ("A-", "E-", "-I", "-U")
@@ -83,8 +83,8 @@ KEYMAP_LAYOUTS = {
 }
 
 LAYOUT = (
-    "F- T- N- *- ^   -> -* -N -T -F < "
-    "K- S- P- R- ^   -> -R -P -S -K < "
+    "P- T- N- *- ^   -> -* -N -T -P < "
+    "K- F- S- R- ^   -> -R -S -F -K < "
              "A- E-  -I -U"
 )
 

@@ -13,3 +13,5 @@ venv/
 
 # Dictionary test files
 dict_test/
+get_sections.py
+sections.txt
