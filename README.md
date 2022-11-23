@@ -12,6 +12,7 @@ Older versions of this system on PyPI can be found under the name [plover-delta-
   - [Rules:](#rules)
   - [Hidden letters:](#hidden-letters)
   - [Other combinations:](#other-combinations)
+  - [Suffixes](#suffixes)
   - [Dictionary Formats](#dictionary-formats)
     - [JSYL Dictionaries](#jsyl-dictionaries)
     - [SYL Dictionaries](#syl-dictionaries)
@@ -52,7 +53,7 @@ If there are keys from the middle bank pressed (like trying to write "sos") ther
 Each stroke will always follow the steno order of the layout used. Two strokes are separated by a `/`; it is not possible for a key to appear two times in either part of the Stroke (all the keys in a stroke are pressed simultaneously, thus one cannot click a key two times) so something like `SSOTT` is not a possible stroke.
 
 An example with this theory would be this:
-`^F*AR>/<TNIU/^PNERT>` which would translate to "Hallo Welt" (Hello World).
+`^F*AR>/<NRIU/^PKERT>` which would translate to "Hallo Welt" (Hello World).
 
 > Reminder: These instructions are for this German theory and thus my further examples will revolve around this theory.
 
@@ -100,7 +101,7 @@ The only letter which does not have a counterpart here is the `R` key. The reaso
 
 As one can see, the counterparts are usually the "softer" versions of the letters (`T` and "d", `K` and "g" as well as `P` and "b"). The reason `S` is in the layout instead of being the "soft" counterpart of "z" is just because the letter "s" is used more frequently in German language (this is also true for the other letters). Others like `N` and "m" are just counterparts out of obvious reasons. `F` and "h" just have their reason to be counterparts due to there being no German words with an "f" and an "h" together at either the end or the start of a syllable; therefore one won't run into issues of needing to press `F` and `F*`(h) on the same side in the same stroke. As a mnemonic, one can think about the `F` being a really "soft" sound and the "h" being even "softer" (they also look pretty alike).
 
-But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as well as the so called "umlaute" ä, ö and ü. Due to most of these being sparely used in the German language, they are hidden behind combinations of letters. Some of them are intuitive, whilst others aren’t. This theory is build to be as intuitive as possible, but especially here the randomness starts to take place. There is no need to worry if this gets a little confusing at first, it is just a matter of memorization and practice. The missing letters are in the following table:
+But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as well as the so called "umlaute" ä, ö and ü. Due to most of these being sparely used in the German language, they are hidden behind combinations of letters. Some of them are intuitive, whilst others aren’t. This theory is build to be as intuitive as possible, but especially here the randomness starts to take place. There is no need to worry if this gets a little confusing at first, it is just a matter of memorization and practice. The missing letters (with some explanations) are in the following table:
 
 
 | Output | Input | Explanation |
@@ -113,7 +114,7 @@ But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as w
 | q | `-FT` | |
 | v | `-NPF` | It looks like V on the new layout |
 | w | `-PK` | |
-| x | `-NSK` | The "x" in a word usually sounds like a "ks" (though the "N" is random) |
+| x | `-NSK` | The "x" in a word usually sounds like a "ks" (though the `N` is random) |
 | y | `AEU` | this was the only vocal combination that was left |
 | ä | `AEI` | To differetiate "ae" and "ä" an `I` was added (because German has no "Ï") |
 | ö | `AIU` | Since "o" is `IU` just doing `EIU` would be the same as "ü" so it had to be another combination with `IU` (the only one being left was `AIU`) |
@@ -128,9 +129,9 @@ There are some other issues one can run into while trying to write certain words
 
 Usually the `>` key is used to double a letter like the "n" in "bann". To write "bann" one simply strokes `P*AN>`. The same works with most of the other letters except for "r" and "l" which, due to "l" being `-R>` on the right side, have other combinations which will be listed below. Also, if a vowel needs to be doubled like in "see" or "tee" one simply types the vowel along with the `>` and the right `*` (so "see" would be `SE*>` and "tee" would be `TE*>`). The `>` key can also be used if the `*` needs to be doubled, like in the word "zahm" which would be `S*ANF**` (rearranged from `S*AF*N*`) but needs to be stroked as `S*ANF*>`. 
 
-As seen in the above chapter, the `>` key is also used to write the letter "l" on the right side. Furthermore, the `>` key can be used to distinguish "chs" from "sch" as in "Lachs" (`^TNASKF>`) and "lasch" (`TNASKF`). As seen there, the combination for writing an "sch" is `SKF` (which makes sense due to `K` being similar to "c" and "h" being the counterpart to `F`). Therefore, the "ch" alone with no "s" in the same part of the stroke is `KF`. The only time when a `S` is pressed together with a `KF` in the same bank but does not form an "sch" or "chs" is when this `S` is used to stroke a "z" as in "schluchz" (`SKFTNUSKF*`). This is really important due to words like "nachts" and "nascht" being stroked the same way. For the "ck" another combination of letters is needed, which can also be seen below.
+Furthermore, the `>` key can be used to distinguish "chs" from "sch" as in "Lachs" (`^NRAKFS>`) and "lasch" (`NRAKFS`). As seen there, the combination for writing an "sch" is `KFS` (or `SKF` for the left side), which makes sense due to `K` being similar to "c" and "h" being the counterpart to `F`. Therefore, the "ch" alone is `KF` and "ck" is `PK`.
 
-Another problem occurs with the word "siel" which requires the same inputs as "seil" (`SEIR>`). Thus, every "ie" needs to be stroked as `AE` instead of `EI` (a pony for this are english words like "beamer", where the "ea" sounds like a german "ie" as in "biegen".
+Another problem occurs with the word "siel" which requires the same inputs as "seil" (`SEIR>`). Thus, every "ie" needs to be stroked as `AE` instead of `EI` (a pony for this are english words like "beamer", where the "ea" sounds like a german "ie" as in "biegen").
 
 Here are all the combinations from this chapter:
 
@@ -156,10 +157,19 @@ Here are all the combinations from this chapter:
 | ck | `-RPK` |
 | ie | `AE` |
 
+## Suffixes
+
+There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank. "naschst" for example will be written as `STNASKF` and nascht as `TNASKF`. "-s" is mainly used for the short form of nouns which end with "es" like "Baums" which is written `^SPN*AUN*`. Furthermore these suffixes are used for "ts" and "chs" which break steno order and would otherwise be confused with "st" and "sch". "lachs" will be written as `SNRAKF` while "lasch" will be written as `NRASKF`. "reist" will be written as `REIST` while "reits" will be written as `SNREIT`. The suffixes can be seen in the following Table:
+
+| Output | Input |
+| :---: | :---: |
+| -s | `SN-` |
+| -t | `TN-` |
+| -st | `STN` |
 
 ## Dictionary Formats
 
-This system supports all regular dictionary formats, such as json. It also comes with support for two additional formats: **DSD**, and **DWD**. In both formats, keys within the left bank (`SKFPTNR*`), vowel bank (`AEIU`), and right banks (`-RNTPSKF*>`) can be arranged in any order within the bank itself.
+This system supports all regular dictionary formats, such as json. It also comes with support for two additional formats: **DSD**, and **DWD**. In both formats, keys within the left bank (`SPTKFNR*`), vowel bank (`AEIU`), and right banks (`-RNPSKFT*>`) can be arranged in any order within the bank itself.
 
 
 ### JSYL Dictionaries
@@ -167,8 +177,8 @@ This system supports all regular dictionary formats, such as json. It also comes
 ```jsyl
 {
 "STE/NUI": "steno",
-"STE/NUI/K*RAF": "stenograf",
-"STE/NUI/K*RA/PF*EA": "stenographie"
+"STE/NUI/KR*AF": "stenograf",
+"STE/NUI/KR*A/PF*EA": "stenographie"
 }
 ```
 
@@ -191,14 +201,14 @@ Here is the steno order and layout again:
 #### Layout
 
 ```
-F- T- N- *- ^    -> -* -N -T -F <
-K- S- P- R- ^    -> -R -P -S -K <
+P- T- N- *- ^    -> -* -N -T -P <
+K- F- S- R- ^    -> -R -S -F -K <
          A  E     I  U
 ```
 
 #### Steno order
 
-`SKFPTNR*AEIURNTPSKF*>`
+`STPKFNR*AEIURNPSKFT*>`
 
 #### Details
 
@@ -206,31 +216,34 @@ The theory is orthographic and revolves around typing each syllable instead of e
 
 Capitalization is achieved by pressing `^` (also called the capital-key) together with the syllable that needs to be capitalized.
 
-The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side or differentiating "sch" from "chs" (though combinations of "ch" and "z" do NOT require the addition of the `>` key as in "schluchz" (`SKFTNUSKF*`) for example).
+The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side.
 
-Missing Letters and other combinations can be accessed by these key combinations:
+Suffixes such as -s, -t or -st are only to be used if `S` or `T` are already being used in the right bank or when writing something that ends with "chs" or "ts" which would otherwise be confused with "sch" or "st".
+
+Missing letters and other combinations can be accessed by these key combinations:
 
 | output | input | | output | input | | output | input | | output | input |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | h | `-F*` | | g | `-K*` | | b | `-P*` | | z | `-S*` |
-| m | `-N*` | | d | `-T*` | | c | `-PK` | | j | `*I` |
-| l- | `TN-` | | -l | `-R>` | | o | `IU` | | q | `-NPK` |
-| v | `-NPF` | | w | `-NP` | | x | `-RPSK` | | y | `EU*` |
-| ä | `AEI` | | ö | `AIU` | | ü | `EIU` | | ß | `-PSK` |
+| m | `-N*` | | d | `-T*` | | c | `-PT` | | j | `-FS` |
+| l- | `NR-` | | -l | `-R>` | | o | `IU` | | q | `-FT` |
+| v | `-NPF` | | w | `-PK` | | x | `-NKS` | | y | `AEU` |
+| ä | `AEI` | | ö | `AIU` | | ü | `EIU` | | ß | `-RPF` |
 | ff | `-F>` | | pp | `-P>` | | bb | `-P*>` | | nn | `-N>` |
 | mm | `-N*>` | | gg | `-K*>` | | ss | `-S>` | | zz | `-S*>` |
-| tt | `-T*>` | | rr | `-RNP` | | ll | `-RNP>` | | aa | `A*>` |
-| ee | `E*>` | | oo | `IU*>` | | sch | `-SKF` | | chs | `-SKF>` |
-| ch | `-KF` | | ck | `-RPK` | | ie | `AE` |
+| tt | `-T*>` | | rr | `-RNK` | | ll | `-RNK>` | | aa | `A*>` |
+| ee | `E*>` | | oo | `IU*>` | | sch | `-SKF` | | ch | `-KF` |
+| ck | `-PK` | | ie | `AE` | | -s | `SN-` | | -t | `TN-` |
+| -st | `STN-` |
 
-(Keep in mind that all combinations work for the left side as well, except for the ones where the left side has a different input)
+> Keep in mind that all combinations work for the left side as well, except for the ones where the left side has a different input
 
 ## Dealing with Conflicting Words
 
 Some words will still create issues because they have the same stroke as some other word. To differentiate them, the first working option in the following list should be used:
 
 #### 1. Option:
-**Example:** hemd=`F*ENT*>`=hemmt ; **Solution:** hem?=`F*ENT*>` ; hemd=`F*E_*NT.*T` ; hemmt=`F*E_*NT.*NT`
+**Example:** hemd=`F*ENT*>`=hemmt ; **Solution:** hem?=`F*ENT*>` ; hemd=`F*ENT*>.*T` ; hemmt=`F*ENT*>.*NT`
 
 Replace the part of the translation where the disambiguation happened with a "?" to indicate to the user that further input is required. Then in the second stroke, the user can input the missing letters that got replaced by the "?" (without the need to add the no-space-key).
 
@@ -251,10 +264,10 @@ The conflicting words are listed in .dwd:
 
 | Option | Conflicts | |
 | :---: | :---: | :---: |
-| 2 | samt, `SAN*T.*N` | sand, `SANT*.*T` |
-| 2 | brems, `PR*E*NS.*N` | brenz, `PR*E*NS.*S` |
+| 2 | samt, `SANT*/-N*` | sand, `SANT*/-T*` |
+| 2 | brems, `PR*ENS*/-N*` | brenz, `PR*ENS*/-S*` |
 | 3 | psi, `SPI*` | spi, `SPI` |
-| 1 | hemd, `F*E_*NT.*T` | hemmt, `F*E_*NT.*NT` |
+| 1 | hemd, `F*ENT*>/-T*` | hemmt, `F*ENT*>/-NT*` |
 | 3 | tou, `TIU*` | to, `TIU` |
 
 If more disambiguations are found, they will be added here.
