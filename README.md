@@ -60,8 +60,8 @@ The steno layout and order for my theory are the following:
 
 Layout:
 ```
-F- T- N- *- ^    -> -* -N -T -F <
-K- S- P- R- ^    -> -R -P -S -K <
+P- T- N- *- ^    -> -* -N -T -P <
+K- F- S- R- ^    -> -R -S -F -K <
          A  E     I  U
 ```
 
@@ -105,20 +105,20 @@ But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as w
 
 | Output | Input | Explanation |
 | :---: | :---: | :---: |
-| c | `-PK` |This combination is purely random |
-| j | `*I` | "i" looks kind of like "j" so "j" is the counterpart of `I` |
-| l (Left L) | `TN-` | This combination is random |
+| c | `-PT` | This combination is purely random |
+| j | `-SF` | This combination is random |
+| l (Left L) | `TR-` | This combination is random |
 | l (Right L) | `-R>` | This is random aswell and will be explained in the next chapter |
 | o | `IU` | One vowel had to go and "o" was the least common, also "o" usually never appears together with either "i" or "u" |
-| q | `-NPK` | Words that start with "q" usually sound like "kw" (which is `KNP`) |
+| q | `-FT` | Words that start with "q" usually sound like "kw" (which is `KNP`) |
 | v | `-NPF` | Similar to the "q" but here it is just because the "v" looks like a "w" (or at least half a "w") and is used similar to "f" |
-| w | `-NP` | This combination is purely random |
-| x | `-RPSK` | The "x" in a word usually sounds like a "ks" (though `R` and `P` are random) |
-| y | `EU*` | "y" in the middle of a word sounds like "ü" (which also can be written as "ue"). The `*` is there to clarify the difference between "y" and "ue". |
+| w | `-PK` | This combination is purely random |
+| x | `-NSK` | The "x" in a word usually sounds like a "ks" (though `R` and `P` are random) |
+| y | `AEU` | "y" in the middle of a word sounds like "ü" (which also can be written as "ue"). The `*` is there to clarify the difference between "y" and "ue". |
 | ä | `AEI` | To differetiate "ae" and "ä" an `I` was added (because German has no "Ï") |
 | ö | `AIU` | Since "o" is `IU` just doing `EIU` would be the same as "ü" so it had to be another combination with `IU` (the only one being left was `AIU`) |
 | ü | `EIU` | Same as "ä" (and also the reason why "y" can’t be `EIU`) |
-| ß | `-PSK` | This combination is purely random |
+| ß | `-RPF` | This combination is purely random |
 
 > Here the letter "l" has two input methods, depending on the side the l is needed.
 
