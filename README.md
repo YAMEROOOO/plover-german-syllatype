@@ -61,8 +61,8 @@ The steno layout and order for my theory are the following:
 
 Layout:
 ```
-P- T- N- *- ^    -> -* -N -T -P <
-K- F- S- R- ^    -> -R -S -F -K <
+P- T- S- *- ^    -> -* -S -T -P <
+K- F- N- R- ^    -> -R -N -F -K <
          A  E     I  U
 ```
 
