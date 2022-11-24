@@ -105,7 +105,7 @@ But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as w
 
 
 | Output | Input | Explanation |
-| :---: | :---: | :---: |
+| :-----: | :-----: | :---: |
 | c | `-PT` | |
 | j | `-SF` | |
 | l (Left L) | `NR-` | |
