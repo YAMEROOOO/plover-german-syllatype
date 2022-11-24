@@ -104,7 +104,7 @@ As one can see, the counterparts are usually the "softer" versions of the letter
 But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as well as the so called "umlaute" ä, ö and ü. Due to most of these being sparely used in the German language, they are hidden behind combinations of letters. Some of them are intuitive, whilst others aren’t. This theory is build to be as intuitive as possible, but especially here the randomness starts to take place. There is no need to worry if this gets a little confusing at first, it is just a matter of memorization and practice. The missing letters (with some explanations) are in the following table:
 
 
-| Output | Input | Explanation |
+|  Output  |  Input  | Explanation |
 | :-----: | :-----: | :---: |
 | c | `-PT` | |
 | j | `-SF` | |
