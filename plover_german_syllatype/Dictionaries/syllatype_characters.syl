@@ -31,8 +31,8 @@ G: ^K*
 H: ^-F*
 H: ^F*
 I: ^I
+J: ^-SF
 J: ^SF
-J: ^-FS
 K: ^-K
 K: ^K
 L: ^-R>
@@ -53,10 +53,10 @@ S: ^S
 T: ^-T
 T: ^T
 U: ^U
-V: ^FPN
 V: ^-NPF
-W: ^KP
+V: ^FPN
 W: ^-PK
+W: ^KP
 X: ^-NSK
 X: ^SKN
 Y: ^AEU
@@ -70,6 +70,8 @@ c: -TP
 c: PT
 ch: -KF
 ch: KF
+ck: -NP
+ck: PN
 d: -T*
 d: T*
 e: E
@@ -80,8 +82,6 @@ g: K*
 h: -F*
 h: F*
 i: I
-j: SF
-j: -FS
 k: -K
 k: K
 l: -R>
@@ -106,8 +106,8 @@ t: T
 u: U
 v: -NPF
 v: FPN
-w: KP
 w: -PK
+w: KP
 x: -NSK
 x: SKN
 y: AEU

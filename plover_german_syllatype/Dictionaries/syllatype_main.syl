@@ -457,6 +457,7 @@ ciert: PTAERT
 cir: PTIR
 cis: PTIS
 cka: PNA
+cke: PNE
 ckel: PNER>
 ckeln: PNERN>
 ckelt: PNERT>
@@ -1582,7 +1583,7 @@ hebst: F*ETPS*
 hebt: F*ETP*
 hech: F*EKF
 hecht: F*ETKF
-hechts: F*ETSKF
+hechts: SFN*ETKF
 heck: F*ENP
 heer: F*ER*>
 hef: F*EF
@@ -2108,7 +2109,7 @@ knaufs: KNAUSF
 knautsch: KNAUTSKF
 kne: KNE
 knecht: KNETKF
-knechts: KNETSKF
+knechts: SKNETKF
 knei: KNEI
 kneif: KNEIF
 kneifst: KNEITSF
@@ -2635,6 +2636,7 @@ maut: N*AUT
 maß: N*ARPF
 me: N*E
 mee: N*E*>
+meh: N*EF*
 mehl: N*ERF*>
 mehr: N*ERF*
 meht: N*ETF*
@@ -2861,7 +2863,7 @@ neur: NEUR
 ni: NI
 nib: NIP*
 nicht: NITKF
-nichts: NITSKF
+nichts: SNITKF
 nick: NINP
 nie: NAE
 nied: NAET*
@@ -3423,7 +3425,7 @@ re: RE
 reb: REP*
 rech: REKF
 recht: RETKF
-rechts: RETSKF
+rechts: SNRETKF
 reck: RENP
 reckst: RENTPS
 reckt: RENTP
@@ -3449,6 +3451,7 @@ rein: REIN
 reis: REIS
 reist: REITS
 reit: REIT
+reits: SNREIT
 reiz: REIS*
 reiß: REIRPF
 reißt: REIRTPF
@@ -5592,12 +5595,12 @@ zückst: S*EIUNTPS
 zückt: S*EIUNTP
 zünd: S*EIUNT*
 zünf: S*EIUNF
-ße: SKPE
-ßel: SKPER>
-ßem: SKPEN*
-ßen: SKPEN
-ßer: SKPER
-ßet: SKPET
+ße: FPRE
+ßel: FPRER>
+ßem: FPREN*
+ßen: FPREN
+ßer: FPRER
+ßet: FPRET
 äb: AEIP*
 ächz: AEISKF*
 ächzt: AEITSKF*
@@ -5629,7 +5632,7 @@ zünf: S*EIUNF
 äß: AEIRPF
 öd: AIUT*
 öf: AIUF
-öh: AIUF>
+öff: AIUF>
 öl: AIUR>
 ölst: AIURTS>
 ölt: AIURT>
