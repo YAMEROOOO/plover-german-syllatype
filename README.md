@@ -159,7 +159,7 @@ Here are all the combinations from this chapter:
 
 ## Suffixes
 
-There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank. "naschst" for example will be written as `STNASKF` and nascht as `TNASKF`. "-s" is mainly used for the short form of nouns which end with "es" like "Baums" which is written `^SPN*AUN*`. Furthermore these suffixes are used for "ts" which breaks steno order and would otherwise be confused with "st". "reist" will be written as `REIST` while "reits" will be written as `SNREIT`. The suffixes can be seen in the following Table:
+There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank. "naschst" for example will be written as `STNASKF` and nascht as `TNASKF`. "-s" is mainly used for "ts" which breaks steno order and would otherwise be confused with "st". "reist" will be written as `REIST` while "reits" will be written as `SNREIT`. The suffixes can be seen in the following Table:
 
 | Output | Input |
 | :---: | :---: |
