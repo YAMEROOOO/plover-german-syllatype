@@ -159,7 +159,7 @@ Here are all the combinations from this chapter:
 
 ## Suffixes
 
-There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank. "naschst" for example will be written as `STNASKF` and nascht as `TNASKF`. "-s" is mainly used for the short form of nouns which end with "es" like "Baums" which is written `^SPN*AUN*`. Furthermore these suffixes are used for "ts" and "chs" which break steno order and would otherwise be confused with "st" and "sch". "lachs" will be written as `SNRAKF` while "lasch" will be written as `NRASKF`. "reist" will be written as `REIST` while "reits" will be written as `SNREIT`. The suffixes can be seen in the following Table:
+There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank. "naschst" for example will be written as `STNASKF` and nascht as `TNASKF`. "-s" is mainly used for the short form of nouns which end with "es" like "Baums" which is written `^SPN*AUN*`. Furthermore these suffixes are used for "ts" which breaks steno order and would otherwise be confused with "st". "reist" will be written as `REIST` while "reits" will be written as `SNREIT`. The suffixes can be seen in the following Table:
 
 | Output | Input |
 | :---: | :---: |
@@ -218,7 +218,7 @@ Capitalization is achieved by pressing `^` (also called the capital-key) togethe
 
 The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side.
 
-Suffixes such as -s, -t or -st are only to be used if `S` or `T` are already being used in the right bank or when writing something that ends with "chs" or "ts" which would otherwise be confused with "sch" or "st".
+Suffixes such as -s, -t or -st are only to be used if `S` or `T` are already being used in the right bank or when writing something that ends with "ts" which would otherwise be confused with "st".
 
 Missing letters and other combinations can be accessed by these key combinations:
 
@@ -232,9 +232,9 @@ Missing letters and other combinations can be accessed by these key combinations
 | ff | `-F>` | | pp | `-P>` | | bb | `-P*>` | | nn | `-N>` |
 | mm | `-N*>` | | gg | `-K*>` | | ss | `-S>` | | zz | `-S*>` |
 | tt | `-T*>` | | rr | `-RNK` | | ll | `-RNK>` | | aa | `A*>` |
-| ee | `E*>` | | oo | `IU*>` | | sch | `-SKF` | | ch | `-KF` |
-| ck | `-PK` | | ie | `AE` | | -s | `SN-` | | -t | `TN-` |
-| -st | `STN-` |
+| ee | `E*>` | | oo | `IU*>` | | sch | `-SKF` | | chs | `-SKF>` |
+| ch | `-KF` | | ck | `-NP` | | ie | `AE` | | -s | `SN-` |
+| -t | `TN-` | | -st | `STN-` |
 
 > Keep in mind that all combinations work for the left side as well, except for the ones where the left side has a different input
 
@@ -269,6 +269,7 @@ The conflicting words are listed in .dwd:
 | 3 | psi, `SPI*` | spi, `SPI` |
 | 1 | hemd, `F*ENT*>/-T*` | hemmt, `F*ENT*>/-NT*` |
 | 3 | tou, `TIU*` | to, `TIU` |
+| 3 | sze, `S*E*` | ze, `S*E` |
 
 If more disambiguations are found, they will be added here.
 
