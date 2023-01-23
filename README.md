@@ -268,8 +268,10 @@ The conflicting words are listed in .dwd:
 | 2 | brems, `PR*ENS*/-N*` | brenz, `PR*ENS*/-S*` |
 | 3 | psi, `SPI*` | spi, `SPI` |
 | 1 | hemd, `F*ENT*>/-T*` | hemmt, `F*ENT*>/-NT*` |
-| 3 | tou, `TIU*` | to, `TIU` |
+| 3 | tou, `PFNIU*` | to, `PFNIU` |
+| 3 | voi, `IU*` | vo, `TIU` |
 | 3 | sze, `S*E*` | ze, `S*E` |
+| 2 | sams, `SA*NS/*N` | `sanz, SA*NS/*S` |
 
 If more disambiguations are found, they will be added here.
 
