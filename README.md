@@ -271,8 +271,9 @@ The conflicting words are listed in .dwd:
 | 3 | tou, `TIU*` | to, `TIU` |
 | 3 | voi, `PFNIU*` | vo, `PFNIU` |
 | 3 | sze, `S*E*` | ze, `S*E` |
-| 2 | sams, `SA*NS/*N` | sanz, `SA*NS/*S` |
+| 2 | sams, `SA*NS/-N*` | sanz, `SA*NS/-S*` |
 | 3 | sio, `SIU*` | so, `SIU` |
+| 2 | nanz, `NANS*/-S*` | nams, `NANS*/-N*` |
 
 If more disambiguations are found, they will be added here.
 
