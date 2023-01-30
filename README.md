@@ -201,8 +201,8 @@ Here is the steno order and layout again:
 #### Layout
 
 ```
-P- T- N- *- ^    -> -* -N -T -P <
-K- F- S- R- ^    -> -R -S -F -K <
+P- T- N- *- >     ^ -* -N -T -P <
+K- F- S- R- >     ^ -R -S -F -K <
          A  E     I  U
 ```
 
