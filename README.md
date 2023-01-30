@@ -159,7 +159,7 @@ Here are all the combinations from this chapter:
 
 ## Suffixes
 
-There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank (or in the case of a word ending with "ts"). "jetzt" for example will be written as `SFETS*PK` and flutscht as `FNRUPSKFT`. Similarly flutschst will be `FNRUPSKFT*` and fleischs will be `FNREISKF*`. "-t" is also used for "ts" which would otherwise be confused with "st". Thus "reist" will be written as `REIST` while "reits" (as in bereits) will be written as `REIPSK`. The suffixes can be seen in the following Table:
+There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank (or in the case of a word ending with "ts"). "jetzt" for example will be written as `SFETS*PK` and flutscht as `FNRUPSKFT`. Similarly flutschst will be `FNRUPSKFT*` and fleischs will be `FNREISKF*`. `-PK` is also used for "ts" which would otherwise be confused with "st". Thus "reist" will be written as `REIST` while "reits" (as in bereits) will be written as `REITPK` (not `REIT*`!). The suffixes can be seen in the following Table:
 
 | Output | Input |
 | :---: | :---: |
