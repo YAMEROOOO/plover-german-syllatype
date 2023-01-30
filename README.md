@@ -218,7 +218,7 @@ Capitalization is achieved by pressing `^` (also called the capital-key) togethe
 
 The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side.
 
-Suffixes such as -s, -t or -st are only to be used if `S` or `T` are already being used in the right bank or when writing something that ends with "ts" which would otherwise be confused with "st".
+Suffixes such as -s, -t or -st are only to be used if `S` or `T` are already being used in the right bank or when writing something that ends with "ts" `PK` is used for the "s".
 
 Missing letters and other combinations can be accessed by these key combinations:
 
@@ -233,8 +233,8 @@ Missing letters and other combinations can be accessed by these key combinations
 | mm | `-N*>` | | gg | `-K*>` | | ss | `-S>` | | zz | `-S*>` |
 | tt | `-T*>` | | rr | `-RNK` | | ll | `-RNK>` | | aa | `A*>` |
 | ee | `E*>` | | oo | `IU*>` | | sch | `-SKF` | | chs | `-SKF>` |
-| ch | `-KF` | | ck | `-NP` | | ie | `AE` | | -s | `SN-` |
-| -t | `TN-` | | -st | `STN-` |
+| ch | `-KF` | | ck | `-NP` | | ie | `AE` | | -s | `-*` |
+| -t | `-PK` | | -st | `-PK*` |
 
 > Keep in mind that all combinations work for the left side as well, except for the ones where the left side has a different input
 
