@@ -26,7 +26,7 @@ am: AN*
 amp: ANP*
 ams: ANS*
 amt: ANT*
-amts: ANST*
+amts: ANTPK*
 an: AN
 ang: ANK*
 angst: ANSKT*
@@ -38,7 +38,7 @@ arg: ARK*
 ark: ARK
 arm: ARN*
 arsch: ARSKF
-arschst: SNARSKFT
+arschst: ARSKFT*
 arscht: ARSKFT
 art: ART
 arz: ARS*
@@ -59,14 +59,15 @@ autsch: AUSKFT
 ba: P*A
 bab: P*AP*
 bag: P*AK*
+bah: P*AF*
 bahn: P*ANF*
-bahnst: P*ANFST*
+bahnst: P*ANSFT*
 bahnt: P*ANFT*
 bak: P*AK
 bal: P*AR>
 bald: PART*>
 ball: P*ARNK>
-ballst: P*ARNKST>
+ballst: P*ARNSKT>
 ballt: P*ARNKT>
 balt: P*ART>
 balz: P*ARS*>
@@ -85,6 +86,7 @@ bap: P*AP
 bar: P*AR
 bard: P*ART*
 barg: P*ARK*
+barn: P*ARN
 barsch: P*ARSKF
 bart: P*ART
 bas: P*AS
@@ -97,7 +99,7 @@ bauch: P*AUKF
 baum: P*AUN*
 baums: P*AUNS*
 bausch: P*AUSKF
-bauschst: NSP*AUSKFT
+bauschst: P*AUSKFT*
 bauscht: P*AUSKFT
 be: P*E
 beb: P*EP*
@@ -108,7 +110,7 @@ beer: P*ER*>
 beet: P*ET*>
 bei: P*EI
 beich: P*EIKF
-beichst: P*EIKFST>
+beichst: P*EISKFT>
 beicht: P*EIKFT
 beid: P*EIT*
 beil: P*EIR>
@@ -117,7 +119,7 @@ beim: P*EIN*
 bein: P*EIN
 beins: P*EINS
 beit: P*EIT
-beits: P*EIST
+beits: P*EITPK
 beiz: P*EIS*
 beiß: P*EIRPF
 beißt: P*EIRPFT
@@ -125,8 +127,10 @@ bel: P*ER>
 bell: P*ERNK>
 bellst: P*ERNSKT>
 bellt: P*ERNKT>
+beln: P*ERN>
 ben: P*EN
 bend: P*ENT*
+bends: P*ENST*
 bens: P*ENS
 ber: P*ER
 berg: P*ERK*
@@ -182,9 +186,10 @@ blan: PNR*AN
 blank: PNR*ANK
 blas: PNR*AS
 blass: PNR*AS>
+blasst: PNR*AST>
 blast: PNR*AST
 blatt: PNR*AT>
-blatts: PNR*AST>
+blatts: PNR*ATPK>
 blau: PNR*AU
 ble: PNR*E
 blech: PNR*EKF
@@ -195,8 +200,8 @@ bleibt: PNR*EIPT*
 bleich: PNR*EIKF
 bleichst: PNR*EISKFT>
 bleicht: PNR*EIKFT
+blem: PNR*EN*
 blen: PNR*EN
-blen: PNR*EN*
 blend: PNR*ENT*
 blet: PNR*ET
 bleus: PNR*EUS
@@ -205,6 +210,7 @@ blich: PNR*IKF
 blick: PNR*INP
 blickst: PNR*INPST
 blickt: PNR*INPT
+blie: PNR*AE
 blieb: PNR*AEP*
 blier: PNR*AER
 bliert: PNR*AERT
@@ -264,9 +270,10 @@ bord: P*IURT*
 borg: P*IURK*
 bors: P*IURS
 bos: P*IUS
+bost: P*IUST
 boss: P*IUS>
 bot: P*IUT
-bots: P*IUST
+bots: P*IUTPK
 bott: P*IUT>
 bow: P*IUPK
 box: P*IUNSK
@@ -314,6 +321,7 @@ brief: PR*AEF
 brier: PR*AER
 brik: PR*IK
 bril: PR*IR>
+brin: PR*IN
 bring: PR*INK*
 bringst: PR*INSKT*
 bringt: PR*INKT*
@@ -393,6 +401,7 @@ bör: P*AIUR
 bös: P*AIUS
 böt: P*AIUT
 bü: P*EIU
+büb: P*EIUP*
 büch: P*EIUKF
 bück: P*EIUNP
 bückt: P*EIUNPT
@@ -420,11 +429,15 @@ car: TPAR
 cas: TPAS
 ce: TPE
 cel: TPER>
+celn: TPERN>
+celst: TPERST>
+celt: TPERT>
 cen: TPEN
 cent: TPENT
 cet: TPET
 cha: KFA
 cham: KFAN*
+chan: KFAN
 char: KFAR
 chas: KFAS
 chauf: KFAUF
@@ -483,6 +496,7 @@ ckis: PNIS
 ckisch: PNISKF
 cko: PNIU
 ckos: PNIUS
+cling: TPNRINK*
 co: TPIU
 col: TPIUR>
 com: TPIUN*
@@ -492,6 +506,7 @@ cre: TPRE
 crem: TPREN*
 cu: TPU
 cur: TPUR
+cy: TPAEU
 cyan: TPAEUN
 da: T*A
 dach: T*AKF
@@ -499,6 +514,7 @@ dacht: T*AKFT
 dad: T*AT*
 dail: T*AIR>
 dak: T*AK
+dal: T*AR>
 dam: T*AN*
 damm: T*AN*>
 dammt: T*ANT*>
@@ -559,6 +575,8 @@ det: T*ET
 dett: T*ET>
 deu: T*EU
 deul: T*EUR>
+deur: T*EUR
+deurs: T*EURS
 deut: T*EUT
 deutsch: T*EUSKFT
 dex: T*ENSK
@@ -649,6 +667,8 @@ drehst: TR*ESFT*
 dreht: TR*EFT*
 drei: TR*EI
 drein: TR*EIN
+dreis: TR*EIS
+dreist: TR*EIST
 dres: TR*ES
 dresch: TR*ESKF
 drescht: TR*ESKFT
@@ -661,6 +681,7 @@ drin: TR*IN
 dring: TR*INK*
 dringst: TR*INSKT*
 dringt: TR*INKT*
+drit: TR*IT
 dritt: TR*IT>
 dro: TR*IU
 droh: TR*IUF*
@@ -986,9 +1007,6 @@ flink: FNRINK
 flipp: FNRIP>
 flippst: FNRIPST>
 flippt: FNRIPT>
-flir: FNRIR
-flirt: FNRIRT
-flirts: FNRIRST
 flit: FNRIT
 flitt: FNRIT>
 flitz: FNRIST*
@@ -1060,6 +1078,7 @@ fragt: FRAKT*
 frain: FRAIN
 frak: FRAK
 fran: FRAN
+frank: FRANK
 frans: FRANS
 franst: FRANST
 frap: FRAP
@@ -1289,7 +1308,7 @@ gieß: K*AERPF
 gießt: K*AERPFT
 gif: K*IF
 gift: K*IFT
-gifts: K*ISFT
+gifts: K*IFTPK
 gig: K*IK*
 gik: K*IK
 gil: K*IR>
@@ -1323,6 +1342,7 @@ glaubt: KNR*AUPT*
 gle: KNR*E
 glei: KNR*EI
 gleich: KNR*EIKF
+gleichs: KNREISKF>
 gleicht: KNR*EIKFT
 gleis: KNR*EIS
 gleist: KNR*EIST
@@ -1353,6 +1373,7 @@ glupscht: KNR*UPSKFT
 glut: KNR*UT
 gly: KNR*AEU
 glä: KNR*AEI
+glän: KNR*AEIN
 glänz: KNR*AEINS*
 glänzt: KNR*AEINST*
 glät: KNR*AEIT
@@ -1432,6 +1453,7 @@ grierst: KR*AERST
 griert: KR*AERT
 grieß: KR*AERPF
 griff: KR*IF>
+griffs: KR*ISF>
 grill: KR*IRNK>
 grillst: KR*IRNSKT>
 grillt: KR*IRNKT>
@@ -1493,12 +1515,13 @@ gurk: K*URK
 gurkst: K*URSKT
 gurkt: K*URKT
 gurt: K*URT
-gurts: K*URST
+gurts: K*URTPK
 gus: K*US
 guss: K*US>
 gust: K*UST
 gut: K*UT
 gym: K*AEUN*
+gyp: K*AEUP
 gäb: K*AEIP*
 gähn: K*AEINF*
 gähnst: K*AEINSFT*
@@ -1584,7 +1607,7 @@ hauchst: F*AUSKFT>
 haucht: F*AUKFT
 haup: F*AUP
 haupt: F*AUPT
-haupts: F*AUPST
+haupts: F*AUPTK
 haus: F*AUS
 haust: F*AUST
 haut: F*AUT
@@ -1594,12 +1617,12 @@ hebst: F*EPST*
 hebt: F*EPT*
 hech: F*EKF
 hecht: F*EKFT
-hechts: SFN*EKFT
+hechts: F*EKFTP
 heck: F*ENP
 heer: F*ER*>
 hef: F*EF
 heft: F*EFT
-hefts: F*ESFT
+hefts: F*EFTPK
 heg: F*EK*
 hei: F*EI
 heil: F*EIR>
@@ -1660,6 +1683,7 @@ hieß: F*AERPF
 hig: F*IK*
 hil: F*IR>
 hilf: F*IRF>
+hilfs: F*IRSF>
 hilfst: F*IRSFT>
 hilft: F*IRFT>
 him: F*IN*
@@ -1677,7 +1701,7 @@ hirsch: F*IRSKF
 hiss: F*IS>
 hisst: F*IST>
 hit: F*IT
-hits: F*IST
+hits: F*ITPK
 ho: F*IU
 hob: F*IUP*
 hoch: F*IUKF
@@ -1833,7 +1857,7 @@ jek: SFEK
 jekt: SFEKT
 jes: SFES
 jet: SFET
-jetzt: STFNEST*
+jetzt: SFEST*PK
 job: SFIUP*
 jobb: SFIUP*>
 jobbst: SFIUPST*>
@@ -1892,6 +1916,7 @@ kamt: KANT*
 kan: KAN
 kann: KAN>
 kannst: KANST>
+kannt: KANT>
 kant: KANT
 kanz: KANS*
 kap: KAP
@@ -1927,6 +1952,7 @@ keg: KEK*
 keh: KEF*
 kehl: KERF*>
 kehr: KERF*
+kehrs: KERSF*
 kehrst: KERSFT*
 kehrt: KERFT*
 kei: KEI
@@ -1941,6 +1967,7 @@ keimst: KEINST*
 keimt: KEINT*
 kein: KEIN
 keit: KEIT
+keits: KEITPK
 kek: KEK
 keks: KESK
 kel: KER>
@@ -2121,7 +2148,7 @@ knaufs: KNAUSF
 knautsch: KNAUSKFT
 kne: KNE
 knecht: KNEKFT
-knechts: SKNEKFT
+knechts: KNEKFTP
 knei: KNEI
 kneif: KNEIF
 kneifst: KNEISFT
@@ -2166,6 +2193,7 @@ knurrt: KNURNKT
 knus: KNUS
 knutsch: KNUSKFT
 knäu: KNAEIU
+knäuel: KNAEIUR>
 knö: KNAIU
 knöch: KNAIUKF
 knöpf: KNAIUPF
@@ -2191,6 +2219,7 @@ kohlst: KIURSFT*>
 kohlt: KIURFT*>
 koks: KIUSK
 kokst: KIUSKT
+kol: KIUR>
 kom: KIUN*
 komm: KIUN*>
 kommst: KIUNST*>
@@ -2201,6 +2230,7 @@ konnt: KIUNT>
 kop: KIUP
 kopf: KIUPF
 kopfs: KIUPSF
+kopp: KIUP>
 kor: KIUR
 korb: KIURP*
 korbs: KIURPS*
@@ -2241,7 +2271,7 @@ kraulst: KRAURST>
 krault: KRAURT>
 kraus: KRAUS
 kraut: KRAUT
-krauts: KRAUST
+krauts: KRAUTPK
 kre: KRE
 krebs: KREPS*
 krei: KREI
@@ -2264,6 +2294,7 @@ kriechst: KRAESKFT>
 kriecht: KRAEKFT
 krieg: KRAEK*
 kriegs: KRAESK*
+krim: KRIN*
 krin: KRIN
 krip: KRIP
 kris: KRIS
@@ -2309,7 +2340,7 @@ kuck: KUNP
 kuh: KUF*
 kul: KUR>
 kult: KURT>
-kults: KURST>
+kults: KURTPK>
 kum: KUN*
 kun: KUN
 kund: KUNT*
@@ -2477,6 +2508,7 @@ les: NRES
 let: NRET
 lett: NRET>
 letz: NREST*
+letzt: NREST*PK
 leu: NREU
 leuch: NREUKF
 leucht: NREUKFT
@@ -2507,6 +2539,7 @@ lim: NRIN*
 lin: NRIN
 lind: NRINT*
 ling: NRINK*
+lings: NRINSK*
 link: NRINK
 lins: NRINS
 lip: NRIP
@@ -2555,6 +2588,7 @@ lus: NRUS
 lust: NRUST
 lut: NRUT
 lutsch: NRUSKFT
+ly: NRAEU
 lynch: NRAEUNKF
 lynchst: NRAEUNSKFT>
 lyncht: NRAEUNKFT
@@ -2580,6 +2614,7 @@ lässt: NRAEIST>
 läst: NRAEIST
 läu: NRAEIU
 läuf: NRAEIUF
+läuft: NRAEIUFT
 lö: NRAIU
 löb: NRAIUP*
 löf: NRAIUF
@@ -2822,10 +2857,12 @@ nahr: NARF*
 naht: NAFT*
 nal: NAR>
 nam: NAN*
-nams: NANS*
+nams: NANS*/-N*
 nan: NAN
 nann: NAN>
+nans?: NANS*
 nant: NANT
+nanz: NANS*/-S*
 nap: NAP
 napf: NAPF
 nar: NAR
@@ -2872,10 +2909,11 @@ netz: NEST*
 neu: NEU
 neun: NEUN
 neur: NEUR
+neut: NEUT
 ni: NI
 nib: NIP*
 nicht: NIKFT
-nichts: SNIKFT
+nichts: NIKFTP
 nick: NINP
 nie: NAE
 nied: NAET*
@@ -2973,6 +3011,7 @@ or: IUR
 ord: IURT*
 ork: IURK
 ort: IURT
+orts: IURTPK
 os: IUS
 ost: IUST
 ot: IUT
@@ -3008,6 +3047,7 @@ part: PART
 pas: PAS
 pasch: PASKF
 pass: PAS>
+passt: PAST>
 pat: PAT
 patsch: PASKFT
 patt: PAT>
@@ -3031,6 +3071,7 @@ peit: PEIT
 peitsch: PEISKFT
 pek: PEK
 pekt: PEKT
+pel: PER>
 pell: PERNK>
 pellst: PERNSKT>
 pellt: PERNKT>
@@ -3045,7 +3086,6 @@ pennt: PENT>
 pent: PENT
 pepp: PEP>
 per: PER
-per: PER>
 pes: PES
 pest: PEST
 pet: PET
@@ -3105,7 +3145,7 @@ pfüt: PFEIUT
 pha: PF*A
 phal: PF*AR>
 phalt: PF*ART>
-phalts: PF*ARST>
+phalts: PF*ARTPK>
 phan: PF*AN
 phar: PF*AR
 phat: PF*AT
@@ -3213,6 +3253,7 @@ plärrt: PNRAEIRNKT
 pläs: PNRAEIS
 plät: PNRAEIT
 plätt: PNRAEIT>
+plätz: PNRAEIST*
 plör: PNRAIUR
 plötz: PNRAIUST*
 plün: PNREIUN
@@ -3256,6 +3297,7 @@ pres: PRES
 presch: PRESKF
 prescht: PRESKFT
 press: PRES>
+preu: PREU
 pri: PRI
 pries: PRAES
 pril: PRIR>
@@ -3437,7 +3479,7 @@ re: RE
 reb: REP*
 rech: REKF
 recht: REKFT
-rechts: SNREKFT
+rechts: REKFTP
 reck: RENP
 reckst: RENPST
 reckt: RENPT
@@ -3450,6 +3492,7 @@ reib: REIP*
 reibst: REIPST*
 reibt: REIPT*
 reich: REIKF
+reichs: REISKF>
 reichst: REISKFT>
 reicht: REIKFT
 reif: REIF
@@ -3463,7 +3506,7 @@ rein: REIN
 reis: REIS
 reist: REIST
 reit: REIT
-reits: SNREIT
+reits: REITPK
 reiz: REIS*
 reiß: REIRPF
 reißt: REIRPFT
@@ -3529,7 +3572,6 @@ rist: RIST
 rit: RIT
 ritt: RIT>
 ritz: RIST*
-ro: REIU
 ro: RIU
 rob: RIUP*
 robb: RIUP*>
@@ -3567,6 +3609,7 @@ rumpf: RUNPF*
 run: RUN
 rund: RUNT*
 rung: RUNK*
+rungs: RUNSK*
 runz: RUNS*
 rup: RUP
 rupf: RUPF
@@ -3598,6 +3641,7 @@ rönt: RAIUNT
 rös: RAIUS
 röst: RAIUST
 röt: RAIUT
+rü: REIU
 rüch: REIUKF
 rücht: REIUKFT
 rück: REIUNP
@@ -3642,6 +3686,8 @@ salzt: SARST*>
 sam: SAN*
 samm: SAN*>
 samst: SANST*
+sams: SANS*/-N*
+sams?: SANS*
 samt: SANT*/-N*
 san: SAN
 sand: SANT*/-T*
@@ -3650,7 +3696,7 @@ sang: SANK*
 sank: SANK
 sant: SANT
 sant?: SANT*
-sanz: SANS*
+sanz: SANS*/-S*
 sar: SAR
 sarg: SARK*
 sas: SAS
@@ -3683,11 +3729,13 @@ schaffst: SKFASFT>
 schafft: SKFAFT>
 schafs: SKFASF
 schaft: SKFAFT
+schafts: SKFAFTPK
 schah: SKFAF*
 schal: SKFAR>
 schall: SKFARNK>
 schallst: SKFARNSKT>
 schallt: SKFARNKT>
+schalt: SKFART>
 scham: SKFAN*
 schan: SKFAN
 schar: SKFAR
@@ -3778,6 +3826,7 @@ schlaf: SKFNRAF
 schlaff: SKFNRAF>
 schlaft: SKFNRAFT
 schlag: SKFNRAK*
+schlags: SKFNRASK*
 schlagt: SKFNRAKT*
 schlamm: SKFNRAN*>
 schlamp: SKFNRANP*
@@ -3875,6 +3924,7 @@ schmeckt: SKFN*ENPT
 schmei: SKFN*EI
 schmeiß: SKFN*EIRPF
 schmeißt: SKFN*EIRPFT
+schmel: SKFN*ER>
 schmelz: SKFN*ERS*>
 schmelzt: SKFN*ERST*>
 schmerz: SKFN*ERS*
@@ -3888,6 +3938,7 @@ schmiegt: SKFN*AEKT*
 schmier: SKFN*AER
 schmierst: SKFN*AERST
 schmiert: SKFN*AERT
+schmil: SKFN*IR>
 schmilz: SKFN*IRS*>
 schmilzt: SKFN*IRST*>
 schmink: SKFN*INK
@@ -3895,16 +3946,20 @@ schminkst: SKFN*INSKT
 schminkt: SKFN*INKT
 schmir: SKFN*IR
 schmiss: SKFN*IS>
+schmol: SKFN*IUR>
 schmoll: SKFN*IURNK>
 schmollst: SKFN*IURNSKT>
 schmollt: SKFN*IURNKT>
 schmolz: SKFN*IURS*>
 schmor: SKFN*IUR
+schmu: SKFN*U
 schmuck: SKFN*UNP
 schmun: SKFN*UN
 schmus: SKFN*US
 schmust: SKFN*UST
+schmut: SKFN*UT
 schmutz: SKFN*UST*
+schmäch: SKFN*AEIKF
 schmäh: SKFN*AEIF*
 schmähst: SKFN*AEISFT*
 schmäht: SKFN*AEIFT*
@@ -4119,6 +4174,7 @@ schä: SKFAEI
 schäd: SKFAEIT*
 schäf: SKFAEIF
 schäft: SKFAEIFT
+schäfts: SKFAEIFTPK
 schäl: SKFAEIR>
 schälst: SKFAEIRST>
 schält: SKFAEIRT>
@@ -4198,7 +4254,7 @@ sess: SES>
 set: SET
 sett: SET>
 setz: SEST*
-setzt: STNEST*
+setzt: SEST*PK
 seu: SEU
 seuf: SEUF
 seufz: SEUSF*
@@ -4243,6 +4299,7 @@ sink: SINK
 sinkst: SINSKT
 sinkt: SINKT
 sinn: SIN>
+sio: SIU*
 sip: SIP
 sipp: SIP>
 sir: SIR
@@ -4273,11 +4330,6 @@ skript: SKRIPT
 skru: SKRU
 skulp: SKURP>
 skur: SKUR
-slang: SNRANK*
-slip: SNRIP
-slo: SNRIU
-slot: SNRIUT
-slum: SNRUN*
 sma: SN*A
 smo: SN*IU
 smog: SN*IUK*
@@ -4345,6 +4397,7 @@ spielst: SPAERST>
 spielt: SPAERT>
 spieß: SPAERPF
 spießt: SPAERPFT
+spin: SPIN
 spind: SPINT*
 spinn: SPIN>
 spit: SPIT
@@ -4425,10 +4478,11 @@ spürst: SPEIURST
 spürt: SPEIURT
 sta: STA
 staat: STAT*>
-staats: STAST*>
+staats: STATPK*>
 stab: STAP*
+stabs: STAPS*
 stach: STAKF
-stadt: STNAT*
+stadt: STAT*PK
 staf: STAF
 stahl: STARF*>
 stal: STAR>
@@ -4500,7 +4554,7 @@ ster: STER
 sterb: STERP*
 sterbt: STERPT*
 stern: STERN
-stets: STEST
+stets: STETPK
 steu: STEU
 sti: STI
 stich: STIKF
@@ -4597,6 +4651,7 @@ strickt: STRINPT
 strie: STRAE
 strikt: STRIKT
 strip: STRIP
+strit: STRIT
 stritt: STRIT>
 stro: STRIU
 stroh: STRIUF*
@@ -4637,6 +4692,7 @@ sturm: STURN*
 sturr: STURNK
 sturz: STURS*
 stuss: STUS>
+stutt: STUT>
 stutz: STUST*
 stä: STAEI
 stäb: STAEIP*
@@ -4696,6 +4752,7 @@ sul: SUR>
 sulz: SURS*>
 sum: SUN*
 summ: SUN*>
+sump: SUNP*
 sumpf: SUNPF*
 sun: SUN
 sund: SUNT*
@@ -4727,6 +4784,7 @@ säum: SAEIUN*
 säumst: SAEIUNST*
 säumt: SAEIUNT*
 säß: SAEIRPF
+söck: SAIUNP
 söff: SAIUF>
 söh: SAIUF*
 söld: SAIURT*>
@@ -4806,6 +4864,9 @@ tein: TEIN
 tek: TEK
 tel: TER>
 tell: TERNK>
+teln: TERN>
+telst: TERST>
+telt: TERT>
 tem: TEN*
 tems: TENS*
 ten: TEN
@@ -4904,6 +4965,7 @@ tor: TIUR
 torf: TIURF
 tos: TIUS
 tot: TIUT
+tou: TIU*
 tox: TIUNSK
 tra: TRA
 trab: TRAP*
@@ -5084,6 +5146,7 @@ uhr: URF*
 ul: UR>
 um: UN*
 umph: UNPF*>
+ums: UNS*
 un: UN
 und: UNT*
 ung: UNK*
@@ -5135,6 +5198,7 @@ vinz: PFNINS*
 vir: PFNIR
 vis: PFNIS
 vo: PFNIU
+voi: PFNIU*
 vol: PFNIUR>
 volk: PFNIURK>
 volks: PFNIURSK>
@@ -5245,6 +5309,7 @@ werd: PKERT*
 werf: PKERF
 werft: PKERFT
 werk: PKERK
+werks: PKERSK
 wert: PKERT
 wes: PKES
 west: PKEST
@@ -5256,6 +5321,7 @@ wi: PKI
 wich: PKIKF
 wichs: PKISKF>
 wicht: PKIKFT
+wick: PKINP
 wid: PKIT*
 wie: PKAE
 wieft: PKAEFT
@@ -5461,8 +5527,8 @@ zeln: S*ERN>
 zelt: S*ERT>
 zem: S*EN*
 zen: S*EN
+zend: S*ENT*
 zent: S*ENT
-zent: S*ENT*
 zep: S*EP
 zeps: S*EPS
 zept: S*EPT
@@ -5564,6 +5630,7 @@ zwackst: SPK*ANPST
 zwackt: SPK*ANPT
 zwan: SPK*AN
 zwang: SPK*ANK*
+zwangs: SPK*ANSK*
 zwar: SPK*AR
 zweck: SPK*ENP
 zweckst: SPK*ENPST
@@ -5616,6 +5683,7 @@ zünf: S*EIUNF
 ßen: PFREN
 ßer: PFRER
 ßet: PFRET
+ßi: PFRI
 äb: AEIP*
 ächz: AEISKF*
 ächzt: AEISKFT*
