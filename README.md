@@ -133,6 +133,8 @@ Furthermore, the `>` key can be used to distinguish "chs" from "sch" as in "Lach
 
 Another problem occurs with the word "siel" which requires the same inputs as "seil" (`SEIR>`). Thus, every "ie" needs to be stroked as `AE` instead of `EI` (a pony for this are english words like "beamer", where the "ea" sounds like a german "ie" as in "biegen").
 
+Lastly words with "oi", "uo" or "ou" can be differentiated from "o" with the `*`-key. There are only a handful of word with these combinations but here are some examples: gouda would be `K*IU*/<T*A`, quotient would be `FTIU*/<TAENT` and konvoi would be `KIUN/<PFNIU*`. This rule does not apply for "io" since these are always split into two syllables (e.g. vision being `PFNI/<SI/<IUN`).
+
 Here are all the combinations from this chapter:
 
 | Output | Input |
@@ -156,6 +158,9 @@ Here are all the combinations from this chapter:
 | ch | `-KF` |
 | ck | `-RPK` |
 | ie | `AE` |
+| oi | `IU*` |
+| ou | `IU*` |
+| uo | `IU*` |
 
 ## Suffixes
 
@@ -234,7 +239,8 @@ Missing letters and other combinations can be accessed by these key combinations
 | tt | `-T*>` | | rr | `-RNK` | | ll | `-RNK>` | | aa | `A*>` |
 | ee | `E*>` | | oo | `IU*>` | | sch | `-SKF` | | chs | `-SKF>` |
 | ch | `-KF` | | ck | `-NP` | | ie | `AE` | | -s | `-*` |
-| -t | `-PK` | | -st | `-PK*` |
+| -t | `-PK` | | -st | `-PK*` | | oi | `IU*` | | ou | `IU*` |
+| uo | `IU*` |
 
 > Keep in mind that all combinations work for the left side as well, except for the ones where the left side has a different input
 
