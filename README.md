@@ -133,7 +133,7 @@ Furthermore, the `>` key can be used to distinguish "chs" from "sch" as in "Lach
 
 Another problem occurs with the word "siel" which requires the same inputs as "seil" (`SEIR>`). Thus, every "ie" needs to be stroked as `AE` instead of `EI` (a pony for this are english words like "beamer", where the "ea" sounds like a german "ie" as in "biegen").
 
-Lastly words with "oi", "uo" or "ou" can be differentiated from "o" with the `*`-key. There are only a handful of word with these combinations but here are some examples: gouda would be `K*IU*/<T*A`, quotient would be `FTIU*/<TAENT` and konvoi would be `KIUN/<PFNIU*`. This rule does not apply for "io" since these are always split into two syllables (e.g. vision being `PFNI/<SI/<IUN`).
+Lastly words with "oi", "uo" or "ou" can be differentiated from "o" with the `*`-key. There are only a handful of word with these combinations but here are some examples: "gouda" would be `K*IU*/<T*A`, "quotient" would be `FTIU*/<TAENT` and "konvoi" would be `KIUN/<PFNIU*`. This rule does not apply for "io" since these are always split into two syllables (e.g. "vision" being `PFNI/<SI/<IUN`).
 
 Here are all the combinations from this chapter:
 
@@ -164,7 +164,7 @@ Here are all the combinations from this chapter:
 
 ## Suffixes
 
-There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank (or in the case of a word ending with "ts"). "jetzt" for example will be written as `SFETS*PK` and flutscht as `FNRUPSKFT`. Similarly flutschst will be `FNRUPSKFT*` and fleischs will be `FNREISKF*`. `-PK` is also used for "ts" which would otherwise be confused with "st". Thus "reist" will be written as `REIST` while "reits" (as in bereits) will be written as `REITPK` (not `REIT*`!). The suffixes can be seen in the following Table:
+There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank (or in the case of a word ending with "ts"). "jetzt" for example will be written as `SFETS*PK` and "rutscht" as `RUPSKFT`. Similarly "rutschst" will be `RUPSKFT*` and "fleischs" will be `FNREISKF*`. `-PK` is also used for "ts" which would otherwise be confused with "st". Thus "reist" will be written as `REIST` while "reits" (as in bereits) will be written as `REITPK` (not `REIT*`!). The suffixes can be seen in the following Table:
 
 | Output | Input |
 | :---: | :---: |
@@ -274,11 +274,8 @@ The conflicting words are listed in .dwd:
 | 2 | brems, `PR*ENS*/-N*` | brenz, `PR*ENS*/-S*` |
 | 3 | psi, `SPI*` | spi, `SPI` |
 | 1 | hemd, `F*ENT*>/-T*` | hemmt, `F*ENT*>/-NT*` |
-| 3 | tou, `TIU*` | to, `TIU` |
-| 3 | voi, `PFNIU*` | vo, `PFNIU` |
 | 3 | sze, `S*E*` | ze, `S*E` |
 | 2 | sams, `SA*NS/-N*` | sanz, `SA*NS/-S*` |
-| 3 | sio, `SIU*` | so, `SIU` |
 | 2 | nanz, `NANS*/-S*` | nams, `NANS*/-N*` |
 
 If more disambiguations are found, they will be added here.
