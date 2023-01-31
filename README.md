@@ -121,7 +121,7 @@ But there are still letters missing, like c, j, l, o, q, v, w, x, y and ß, as w
 | ü | `EIU` | Same as "ä" |
 | ß | `-RPF` | |
 
-> Here the letter "l" has two input methods, depending on the side the l is needed.
+> Here the letter "l" has two input methods, depending on the side the "l" is needed.
 
 ## Other combinations:
 
