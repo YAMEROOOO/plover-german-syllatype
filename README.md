@@ -61,8 +61,8 @@ The steno layout and order for my theory are the following:
 
 Layout:
 ```
-P- T- S- *- ^    -> -* -S -T -P <
-K- F- N- R- ^    -> -R -N -F -K <
+P- T- N- *- ->    ^ -* -N -T -P <
+K- F- S- R- ->    ^ -R -S -F -K <
          A  E     I  U
 ```
 
@@ -189,7 +189,7 @@ This system supports all regular dictionary formats, such as json. It also comes
 
 ### SYL Dictionaries
 
-Use `\:` to escape `:` as in: `03\:00: TR*EIURF*`.
+Use `\:` to escape `:` as in: `03\:00: TR*EI/URF*`.
 
 ```
 steno: STE/NUI
@@ -206,8 +206,8 @@ Here is the steno order and layout again:
 #### Layout
 
 ```
-P- T- N- *- >     ^ -* -N -T -P <
-K- F- S- R- >     ^ -R -S -F -K <
+P- T- N- *- ->    ^ -* -N -T -P <
+K- F- S- R- ->    ^ -R -S -F -K <
          A  E     I  U
 ```
 
