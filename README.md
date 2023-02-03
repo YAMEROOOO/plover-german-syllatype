@@ -164,7 +164,7 @@ Here are all the combinations from this chapter:
 
 ## Suffixes
 
-There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank (or in the case of a word ending with "ts"). "jetzt" for example will be written as `SFETS*PK` and "rutscht" as `RUPSKFT`. Similarly "rutschst" will be `RUPSKFT*` and "fleischs" will be `FNREISKF*`. `-PK` is also used for "ts" which would otherwise be confused with "st". Thus "reist" will be written as `REIST` while "reits" (as in bereits) will be written as `REITPK` (not `REIT*`!). The suffixes can be seen in the following Table:
+There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a syllable if `S` or `T` are aready being used in the right bank (or in the case of a word ending with "ts"). "jetzt" for example will be written as `SFETS*PK` and "rutscht" as `RUPSKFT`. Similarly "rutschst" will be `RUPSKFT*` and "fleischs" will be `FNREISKF*`. `-PK` is also used for "ts" or "ds" which would otherwise be confused with "st" or "zt". Thus "reist" will be written as `REIST` while "reits" (as in bereits) will be written as `REITPK` (not `REIT*`!). The suffixes can be seen in the following Table:
 
 | Output | Input |
 | :---: | :---: |
@@ -223,7 +223,7 @@ Capitalization is achieved by pressing `^` (also called the capital-key) togethe
 
 The `>` key is used to double letters (as well as the `*` if needed) or to create an "l" on the right side.
 
-Suffixes such as -s, -t or -st are only to be used if `S` or `T` are already being used in the right bank or when writing something that ends with "ts" `PK` is used for the "s".
+Suffixes such as -s, -t or -st are only to be used if `S` or `T` are already being used in the right bank or when writing something that ends with "ts" or "ds" `PK` is used for the "s".
 
 Missing letters and other combinations can be accessed by these key combinations:
 
