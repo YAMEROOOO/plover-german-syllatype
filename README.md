@@ -174,7 +174,7 @@ There are 3 suffix strokes that are used to add "s", "t" or "st" at the end of a
 
 ## Dictionary Formats
 
-This system supports all regular dictionary formats, such as json. It also comes with support for two additional formats: **JSYL**, and **SYL**. In both formats, keys within the left bank (`SPTKFNR*`), vowel bank (`AEIU`), and right banks (`-RNPSKFT*>`) can be arranged in any order within the bank itself.
+This system supports all regular dictionary formats, such as json. It also comes with support for two additional formats: **JSYL** and **SYL**. In both formats, keys within the left bank (`SPTKFNR*`), vowel bank (`AEIU`), and right banks (`-RNPSKFT*>`) can be arranged in any order within the bank itself.
 
 
 ### JSYL Dictionaries
