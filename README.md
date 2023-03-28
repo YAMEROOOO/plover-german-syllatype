@@ -266,7 +266,7 @@ Note: This Option requires memorization of this disambiguation.
 
 ## List of Conflicting Words
 
-The conflicting words are listed in .syl:
+The conflicting words are listed in .syl format:
 
 | Option | Conflicts | |
 | :---: | :---: | :---: |
