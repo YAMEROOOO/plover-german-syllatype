@@ -286,5 +286,5 @@ First and foremost, I would like to thank [Kathy](https://github.com/Kaoffie) fo
 
 Also, I want to say something regarding this theory and myself. This has been a passion project of mine since 2021 and was (except for the plugin) all done by me. I changed the theory multiple times as well as the dictionary and ended up translating all the (at the time of writing this around 5500) syllables by myself, so if there are any mistakes in there I'm sorry. That said, the best place to reach out to me would be my discord (YAMERO#3100) or via the [plover discord server](https://discord.gg/f47aYcst9B) where I will be talking about new improvements and updates from now on. I appreciate everyone who is willing to help me out on this project, even if it's just finding some mistakes or missing syllables and sending them to me. Be aware though that I worked on this theory a long time now, and thought about the layout and other improvement ideas dozens of times and most of them will have some issues that will create more problems than before, so I can confidently say that this is the best theory I can craft and there won't be any major changes to it, so please respect that.
 
-**Last but not least, have fun writing!**
+**Last but not least, have fun writing with Syllatype!**
 
