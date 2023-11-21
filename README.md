@@ -8,6 +8,7 @@ Older versions of this system on PyPI can be found under the name [plover-delta-
 
 - [YAMERO's German Syllatype](#yameros-german-syllatype)
   - [Contents:](#contents)
+  - [How to setup:](#how-to-setup)
   - [Introduction:](#introduction)
   - [Rules:](#rules)
   - [Hidden letters:](#hidden-letters)
@@ -27,6 +28,10 @@ Older versions of this system on PyPI can be found under the name [plover-delta-
   - [List of Conflicting Words](#list-of-conflicting-words)
   - [Addendum](#addendum)
 
+
+## How to setup:
+
+Via the built in "Plugins Manager" install plover-german-syllatype in Plover. Download the dictionaries from [here](https://github.com/YAMEROOOO/plover-german-syllatype/tree/master/plover_german_syllatype/Dictionaries) and load them in via "Add dictionaries". Lastly, in Plover, go to "Configure", "System" and change it to "German Syllatype". Hit "apply" and voilà, you're done.
 
 ## Introduction:
 
