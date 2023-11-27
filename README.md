@@ -282,6 +282,7 @@ The conflicting words are listed in .syl format:
 | 3 | sze, `S*E*` | ze, `S*E` |
 | 2 | sams, `SA*NS/-N*` | sanz, `SA*NS/-S*` |
 | 2 | nanz, `NANS*/-S*` | nams, `NANS*/-N*` |
+| 2 | tenz, `TENS*/-S*` | tems, `TENS*/-N*` |
 
 If more disambiguations are found, they will be added here.
 
