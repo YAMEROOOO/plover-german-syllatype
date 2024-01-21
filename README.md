@@ -241,7 +241,7 @@ Missing letters and other combinations can be accessed by these key combinations
 | ä | `AEI` | | ö | `AIU` | | ü | `EIU` | | ß | `-RPF` |
 | ff | `-F>` | | pp | `-P>` | | bb | `-P*>` | | nn | `-N>` |
 | mm | `-N*>` | | gg | `-K*>` | | ss | `-S>` | | zz | `-S*>` |
-| tt | `-T*>` | | rr | `-RNK` | | ll | `-RNK>` | | aa | `A*>` |
+| tt | `-T>` | | rr | `-RNK` | | ll | `-RNK>` | | aa | `A*>` |
 | ee | `E*>` | | oo | `IU*>` | | sch | `-SKF` | | chs | `-SKF>` |
 | ch | `-KF` | | ck | `-NP` | | ie | `AE` | | -s | `-*` |
 | -t | `-PK` | | -st | `-PK*` | | oi | `IU*` | | ou | `IU*` |
