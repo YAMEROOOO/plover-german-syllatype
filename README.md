@@ -161,7 +161,7 @@ Here are all the combinations from this chapter:
 | sch | `-SKF` |
 | chs | `-SKF>` |
 | ch | `-KF` |
-| ck | `-RPK` |
+| ck | `-NP` |
 | ie | `AE` |
 | oi | `IU*` |
 | ou | `IU*` |
