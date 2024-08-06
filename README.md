@@ -254,12 +254,12 @@ Missing letters and other combinations can be accessed by these key combinations
 Some words will still create issues because they have the same stroke as some other word. To differentiate them, the first working option in the following list should be used:
 
 #### 1. Option:
-**Example:** hemd=`F*ENT*>`=hemmt ; **Solution:** hem?=`F*ENT*>` ; hemd=`F*ENT*>.*T` ; hemmt=`F*ENT*>.*NT`
+**Example:** hemd=`F*ENT*>`=hemmt ; **Solution:** hem?=`F*ENT*>` ; hemd=`F*ENT*>/*T` ; hemmt=`F*ENT*>/*NT`
 
 Replace the part of the translation where the disambiguation happened with a "?" to indicate to the user that further input is required. Then in the second stroke, the user can input the missing letters that got replaced by the "?" (without the need to add the no-space-key).
 
 #### 2. Option:
-**Example:** samt=`SANT*`=sand ; **Solution:** sant?=`SANT*` ; samt=`SAN*T.*N` ; sand=`SANT*.*T`
+**Example:** samt=`SANT*`=sand ; **Solution:** sant?=`SANT*` ; samt=`SAN*T/*N` ; sand=`SANT*/*T`
 
 Replace the part of the translation where the disambiguation occurs with the unchanged form of the characters (in this case the counterpart "m" will change back to "n" or the counterpart "d" will change back to "t") and add a "?" at the part where the disambiguation happened to indicate to the user that further input is required. Then in the second stroke, the user can input the counterpart of the letter which needs to be changed (without the need to add the no-space-key).
 
